@@ -1,5 +1,10 @@
-import styles from './layout.module.scss'
+import Navbar from './Navbar'
 
-export default function Layout({ children }) {
-    return <div className={styles.container}>{children}</div>
-}
+const Layout = ({children}) => (
+    <>
+        <Navbar/>
+        {children}
+    </>
+)
+
+export default Layout;
