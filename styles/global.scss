@@ -8,11 +8,15 @@ body {
         Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     line-height: 1.6;
     font-size: 18px;
-    background-color: #fcfcfc;
+    background-color: #01080f;
 }
 
 * {
     box-sizing: border-box;
+}
+
+p, h1, h2, span {
+    color: #fdfdfd;
 }
 
 a {
