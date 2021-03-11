@@ -8,7 +8,8 @@ body {
         Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     line-height: 1.6;
     font-size: 18px;
-    background-color: #01080f;
+    background-color: #000000;
+    min-height: 100vh;
 }
 
 * {
@@ -20,12 +21,12 @@ p, h1, h2, span {
 }
 
 a {
-    color: #0070f3;
+    color: #4ea0ff;
     text-decoration: none;
 }
 
 a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 img {
@@ -34,3 +35,71 @@ img {
 }
 
 // Navigation bar
+
+#navbar {
+    padding: .8em;
+    margin-bottom: 2em;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 2em;
+        justify-content: center;
+
+        a {
+            color: lightseagreen;
+        }
+    }
+}
+
+// Main page
+
+#main {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    #author {
+        display: grid;
+        justify-content: center;
+
+        #name {
+            margin: 0;
+            text-align: center;
+        }
+
+        #title {
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    #description {
+        display: grid;
+        grid-template-columns: 50vw, 50vw;
+        grid-gap: 2em;
+
+        #programming {
+            grid-column: 1 / 2;
+        }
+
+        #translation {
+            grid-column: 2 / 3;
+        }
+    }
+
+    #contact {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 1.5em;
+            justify-content: center;
+        }
+    }
+}
