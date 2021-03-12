@@ -9,7 +9,6 @@ body {
     line-height: 1.6;
     font-size: 18px;
     background-color: #000000;
-    min-height: 100vh;
 }
 
 * {
@@ -21,7 +20,7 @@ p, h1, h2, span {
 }
 
 a {
-    color: #4ea0ff;
+    color: lightskyblue;
     text-decoration: none;
 }
 
@@ -37,8 +36,10 @@ img {
 // Navigation bar
 
 #navbar {
+    position: fixed;
     padding: .8em;
-    margin-bottom: 2em;
+    margin: 0;
+    width: 100vw;
 
     ul {
         margin: 0;
@@ -50,7 +51,7 @@ img {
         justify-content: center;
 
         a {
-            color: lightseagreen;
+            color: lightgreen;
         }
     }
 }
@@ -61,10 +62,12 @@ img {
     display: grid;
     justify-content: center;
     align-content: center;
+    min-height: 100vh;
 
     #author {
         display: grid;
         justify-content: center;
+        margin-bottom: 2em;
 
         #name {
             margin: 0;
@@ -81,17 +84,41 @@ img {
         display: grid;
         grid-template-columns: 50vw, 50vw;
         grid-gap: 2em;
+        margin: 0;
 
         #programming {
             grid-column: 1 / 2;
+
+            h2 {
+                margin-top: 0;
+            }
+
+            p {
+                margin: 0;
+            }
         }
 
         #translation {
             grid-column: 2 / 3;
+
+            h2 {
+                margin-top: 0;
+            }
+
+            p {
+                margin: 0;
+            }
         }
     }
 
     #contact {
+        margin-top: 2em;
+
+        p {
+            display: grid;
+            justify-content: center;
+            margin: 0 0 .2em 0
+        }
         ul {
             margin: 0;
             padding: 0;

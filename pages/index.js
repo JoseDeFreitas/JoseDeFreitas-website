@@ -51,6 +51,7 @@ export default function Home() {
                         </div>
                     </section>
                     <section id="contact">
+                        <p>Contact:</p>
                         <ul>
                             <li>
                                 <a href="https://github.com/JoseDeFreitas">GitHub</a>
