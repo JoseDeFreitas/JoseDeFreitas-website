@@ -40,6 +40,7 @@ img {
     padding: .8em;
     margin: 0;
     width: 100vw;
+    background-color: rgba(0,0,0,.94);
 
     ul {
         margin: 0;
@@ -119,6 +120,7 @@ img {
             justify-content: center;
             margin: 0 0 .2em 0
         }
+
         ul {
             margin: 0;
             padding: 0;
@@ -127,6 +129,69 @@ img {
             grid-auto-flow: column;
             grid-gap: 1.5em;
             justify-content: center;
+        }
+    }
+}
+
+// Portfolio pages
+
+#main {
+    #header {
+        display: grid;
+        justify-content: center;
+
+        p {
+            margin-top: 0;
+        }
+    }
+
+    #container {
+        margin: 1.5em 0 3em 0;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: .5em;
+
+        .card {
+            width: 20em;
+            height: min-content;
+            border: 2px solid white;
+            padding: .8em;
+
+            .card-info {
+                h3 {
+                    margin: 0 0 .4em 0;
+                }
+
+                p {
+                    margin: 0;
+                }
+
+                .card-extra {
+                    margin-top: .5em;
+                    display: grid;
+                    grid-auto-flow: column;
+
+                    .date {
+                        font-size: .8em;
+                    }
+
+                    .card-tags {
+                        align-self: flex-end;
+                        text-align: right;
+                        font-size: .6em;
+                    }
+                }
+            }
+
+            hr {
+                border: 1px solid white;
+            }
+
+            .card-links {
+                display: grid;
+                grid-auto-flow: column;
+                justify-content: space-evenly;
+            }
         }
     }
 }

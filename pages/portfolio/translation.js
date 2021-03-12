@@ -19,23 +19,38 @@ export default function Translation({ projectsList }) {
 
             <Layout>
                 <main id="main">
-                    <section>
+                    <section id="header">
                         <h1>Translation</h1>
-                        <p></p>
+                        <p>The documents I've translated from English to Spanish.</p>
+                        <p>
+                            Each card consists of the project name, the project description, the translation<br/>
+                            publication date, the link to the translation, the link to the context (I've<br/>
+                            contributed to open-source projects. In this link I set the url of the pull<br/>
+                            request or discussion about the translation. If it's a project created entirely<br/>
+                            by me there's no link to "context") and some tags.
+                        </p>
+                        <p>
+                            As you see, most translations are done through GitHub. However, I also have<br/>
+                            Crowdin (a internationalization software) which I use to work on translations<br/>
+                            from other projects. You can see the link to my Crowdin profile in the home page.
+                        </p>
                     </section>
-                    <section>
+                    <section id="container">
                         {projectsList.map(project => (
                             <div className="card">
-                                <div>
+                                <div className="card-info">
                                     <h3>{project.name}</h3>
                                     <p>{project.description}</p>
-                                    <p>{project.creation}</p>
+                                    <div className="card-extra">
+                                        <p class="date">{project.creation}</p>
+                                        <p class="card-tags">Tags: {project.tags.join(', ')}</p>
+                                    </div>
                                 </div>
-                                <div>
+                                <hr/>
+                                <div className="card-links">
                                     <a href={project.link}>Translation</a>
                                     <a href={project.pr}>Context</a>
                                 </div>
-                                <p>{project.tags}</p>
                             </div>
                         ))}
                     </section>
