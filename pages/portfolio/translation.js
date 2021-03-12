@@ -49,7 +49,7 @@ export default function Translation({ projectsList }) {
                                 <hr/>
                                 <div className="card-links">
                                     <a href={project.link}>Translation</a>
-                                    <a href={project.pr}>Context</a>
+                                    {project.pr ? <a href={project.pr}>Context</a> : <p>Context</p>}
                                 </div>
                             </div>
                         ))}
