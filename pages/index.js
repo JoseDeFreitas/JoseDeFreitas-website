@@ -9,7 +9,7 @@ export default function Home() {
                 <meta name="description" content="Portfolio of José De Freitas"/>
                 <meta name="keywords" content="Portfolio, Programming, Translation"/>
                 <meta name="author" content="José De Freitas"/>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="https://avatars.githubusercontent.com/u/37962411?v=4"/>
             </Head>
 
             <Layout>
