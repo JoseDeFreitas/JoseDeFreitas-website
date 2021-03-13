@@ -17,6 +17,7 @@ export default function Home() {
                     <section id="author">
                         <h1 id="name">José De Freitas</h1>
                         <p id="title">Programmer and translator</p>
+                        <a href="https://ko-fi.com/D1D62AAG8" target="_blank"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi button"/></a>
                     </section>
                     <section id="description">
                         <div id="programming">
@@ -54,13 +55,13 @@ export default function Home() {
                         <p>Contact:</p>
                         <ul>
                             <li>
-                                <a href="https://github.com/JoseDeFreitas">GitHub</a>
+                                <a href="https://github.com/JoseDeFreitas" target="_blank">GitHub</a>
                             </li>
                             <li>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas">Crowdin</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" target="_blank">Crowdin</a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/JoseDeF32503298">Twitter</a>
+                                <a href="https://twitter.com/JoseDeF32503298" target="_blank">Twitter</a>
                             </li>
                         </ul>
                     </section>
