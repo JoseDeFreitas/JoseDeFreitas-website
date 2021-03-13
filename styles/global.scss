@@ -161,8 +161,11 @@ img {
             height: auto;
             border: 2px solid white;
             padding: .8em;
+            position: relative;
 
             .card-info {
+                margin-bottom: 2.4em;
+
                 h3 {
                     margin: 0 0 .4em 0;
                 }
@@ -188,21 +191,29 @@ img {
                 }
             }
 
-            hr {
-                border: 1px solid white;
-            }
+            .card-bottom {
+                margin-bottom: .5em;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
 
-            .card-links {
-                display: grid;
-                grid-auto-flow: column;
-                justify-content: space-evenly;
-
-                a {
-                    margin:0;
+                hr {
+                    border: 1px solid white;
                 }
 
-                p {
-                    margin: 0;
+                .card-links {
+                    display: grid;
+                    grid-auto-flow: column;
+                    justify-content: space-evenly;
+
+                    a {
+                        margin:0;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
                 }
             }
         }

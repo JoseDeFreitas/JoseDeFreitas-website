@@ -46,10 +46,12 @@ export default function Translation({ projectsList }) {
                                         <p class="card-tags">Tags: {project.tags.join(', ')}</p>
                                     </div>
                                 </div>
-                                <hr/>
-                                <div className="card-links">
-                                    <a href={project.link}>Translation</a>
-                                    {project.pr ? <a href={project.pr}>Context</a> : <p>Context</p>}
+                                <div className="card-bottom">
+                                    <hr/>
+                                    <div className="card-links">
+                                        <a href={project.link}>Translation</a>
+                                        {project.pr ? <a href={project.pr}>Context</a> : <p>Context</p>}
+                                    </div>
                                 </div>
                             </div>
                         ))}
