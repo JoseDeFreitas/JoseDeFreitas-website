@@ -23,14 +23,14 @@ export default function Home() {
                         <div id="programming">
                             <h2>Programming</h2>
                             <p>
-                                I program various types of programs. I like many topics, but to<br/>
-                                list some of them, these are the ones: automation, web development<br/>
+                                I code various types of programs. I like many topics, but to<br/>
+                                list some of them, I'd say: automation, web development<br/>
                                 (front-end and back-end), web applications, desktop applications,<br/>
                                 networking, and more. I also do coding challenges very often, as I<br/>
-                                find them pretty fun and make me gain more skills.
+                                find them pretty fun and they make me gain more skills.
                             </p>
                             <p>
-                                I use mainly Python, C++ and C# as programming languages, though<br/>
+                                I use Python, C++ and C# as programming languages, though<br/>
                                 I also know JavaScript, HTML and CSS (sass). About more specific<br/>
                                 technologies I know git and the main IDE I use is Visual Studio Code.
                             </p>
@@ -38,8 +38,8 @@ export default function Home() {
                         <div id="translation">
                             <h2>Translation</h2>
                             <p>
-                                I'm a native Spanish speaker that learned English years ago. I<br/>
-                                Started to translate documents some time ago and it's something I<br/>
+                                I'm a native Spanish speaker that have been lerning English years ago.<br/>
+                                I started to translate documents some time ago and it's something I<br/>
                                 really enjoy. I have a very meticulous process when it comes to<br/>
                                 doing a translation job, as I consider a translation should reflect<br/>
                                 the same ideas and content of the original document.
