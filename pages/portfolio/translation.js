@@ -35,7 +35,7 @@ export default function Translation({ projectsList }) {
                             from other projects. You can see the link to my Crowdin profile in the home page.
                         </p>
                         <p>
-                            <strong>I sell translations.</strong> You can go to <a href="https://ko-fi.com/s/4d65477558" target="_blank">my shop</a><br/>
+                            <strong>I sell translations.</strong> You can go to <a href="https://ko-fi.com/s/4d65477558" target="_blank">my shop</a>
                             to see the translation service I'm selling.
                         </p>
                     </section>
