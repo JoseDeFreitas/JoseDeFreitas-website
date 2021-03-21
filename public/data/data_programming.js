@@ -14,5 +14,13 @@ export const programmingProjects = [
         creation: '07/03/2021',
         link: 'https://github.com/JoseDeFreitas/awesome-youtubers/tree/main/src/voter',
         tags: ['Flask', 'Python', 'database', 'api', 'backend']
+    },
+    {
+        id: 3,
+        name: 'lintmd',
+        description: 'Package to lint your markdown files easily and broadly.',
+        creation: '21/03/2021',
+        link: 'https://github.com/JoseDeFreitas/lintmd',
+        tags: ['Python', 'package', 'markdown']
     }
 ]
