@@ -52,7 +52,8 @@ export default function Translation({ projectsList }) {
                                 <div className="card-bottom">
                                     <hr/>
                                     <div className="card-links">
-                                        <a href={project.link}>Translation</a>
+                                        <a href={project.source}>Source</a>
+                                        <a href={project.translation}>Translation</a>
                                         {project.pr ? <a href={project.pr}>Context</a> : <p>Context</p>}
                                     </div>
                                 </div>
