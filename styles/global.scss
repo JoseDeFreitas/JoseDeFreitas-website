@@ -159,7 +159,7 @@ img {
         .card {
             width: 20em;
             height: auto;
-            border: 2px solid white;
+            border: 2px solid #d3d3d3;
             padding: .8em;
             position: relative;
 
@@ -167,6 +167,7 @@ img {
                 margin-bottom: 2.4em;
 
                 h3 {
+                    color: white;
                     margin: 0 0 .4em 0;
                 }
 
@@ -199,7 +200,7 @@ img {
                 width: 100%;
 
                 hr {
-                    border: 1px solid white;
+                    border: 1px solid #d3d3d3;
                 }
 
                 .card-links {
@@ -216,6 +217,10 @@ img {
                     }
                 }
             }
+        }
+
+        .card:hover {
+            border: 2px solid lightgreen;
         }
     }
 }
