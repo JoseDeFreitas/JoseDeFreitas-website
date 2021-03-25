@@ -23,9 +23,9 @@ export default function Programming({ projectsList }) {
                         <h1>Programming</h1>
                         <p>The project I've been working on and that I've made.</p>
                         <p>
-                            Each card consists of the project name, the project description, the project<br/>
-                            publication date (I update most of them when needed), the link to the project<br/>
-                            page (usually a GitHub repository) and some tags (including the programming<br/>
+                            Each card consists of the project name, the project description, the project
+                            publication date (I update most of them when needed), the link to the project
+                            page (usually a GitHub repository) and some tags (including the programming
                             language I've used).
                         </p>
                         <p>These project are of various topics and are open-source.</p>

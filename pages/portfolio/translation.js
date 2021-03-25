@@ -23,15 +23,15 @@ export default function Translation({ projectsList }) {
                         <h1>Translation</h1>
                         <p>The documents I've translated from English to Spanish.</p>
                         <p>
-                            Each card consists of the project name, the project description, the translation<br/>
-                            publication date, the link to the translation, the link to the context (I've<br/>
-                            contributed to open-source projects. In this link I set the url of the pull<br/>
-                            request or discussion about the translation. If it's a project created entirely<br/>
+                            Each card consists of the project name, the project description, the translation
+                            publication date, the link to the translation, the link to the context (I've
+                            contributed to open-source projects. In this link I set the url of the pull
+                            request or discussion about the translation. If it's a project created entirely
                             by me there's no link to "context") and some tags.
                         </p>
                         <p>
-                            As you see, most translations are done through GitHub. However, I also have<br/>
-                            Crowdin (a internationalization software) which I use to work on translations<br/>
+                            As you see, most translations are done through GitHub. However, I also have
+                            Crowdin (a internationalization software) which I use to work on translations
                             from other projects. You can see the link to my Crowdin profile in the home page.
                         </p>
                         <p>

@@ -83,8 +83,9 @@ img {
 
     #description {
         display: grid;
-        grid-template-columns: 50vw, 50vw;
+        grid-template-columns: auto, auto;
         grid-gap: 2em;
+        width: 70em;
         margin: 0;
 
         #programming {
@@ -139,7 +140,8 @@ img {
     #header {
         margin-top: 5em;
         display: grid;
-        justify-content: center;
+        width: 40em;
+        justify-self: center;
 
         h1 {
             text-align: center;
@@ -154,6 +156,7 @@ img {
         margin: 1.5em 0 3em 0;
         display: grid;
         grid-template-columns: auto auto auto auto;
+        justify-content: center;
         grid-gap: .5em;
 
         .card {
@@ -227,8 +230,175 @@ img {
 
 // Media queries
 
-@media screen and (max-width: 800px) {
-    .column {
-        width: 50%;
+// Small monitors/tablets
+
+@media screen and (max-width: 1400px) {
+
+    // Navigation bar
+
+    #navbar {
+        padding: .6em;
+
+        ul {
+            grid-gap: 1em;
+        }
+    }
+
+    // Main page
+
+    #main {
+        #author {
+            margin-bottom: 1.5em;
+        }
+
+        #description {
+            width: 60em;
+            grid-gap: 1.5em;
+        }
+
+        #contact {
+            margin: 1.5em 0;
+
+            ul {
+                grid-gap: 1em;
+            }
+        }
+    }
+
+    // Portfolio pages
+
+    #main {
+        #container {
+            //margin: 5em 8em 0 8em;
+            grid-template-columns: auto auto auto;
+            grid-gap: .5em;
+
+            .card {
+                width: 17em;
+                padding: .7em;
+
+                .card-info {
+                    .card-extra {
+                        .date {
+                            font-size: .6em;
+                        }
+
+                        .card-tags {
+                            font-size: .5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile big
+
+@media screen and (max-width: 1150px) {
+
+    // Navigation bar
+
+    #navbar {
+        padding: .5em;
+
+        ul {
+            grid-gap: 1em;
+        }
+    }
+
+    // Main page
+
+    #main {
+        #author {
+            margin: 3em 0 1.4em;
+        }
+
+        #description {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            grid-gap: 1.5em;
+            width: 30em;
+
+            #programming {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+
+            #translation {
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+        }
+
+        #contact {
+            margin: 1.4em 0;
+
+            ul {
+                grid-gap: 1em;
+            }
+        }
+    }
+
+    // Portfolio pages
+
+    #main {
+        #header {
+            margin-top: 3em;
+            width: 30em;
+            display: grid;
+    
+            p {
+                font-size: .9em;
+            }
+        }
+
+        #container {
+            grid-template-columns: auto auto;
+            grid-gap: .5em;
+            justify-content: center;
+
+            .card {
+                width: 16em;
+                padding: .7em;
+
+                .card-info {
+                    .card-extra {
+                        .date {
+                            font-size: .6em;
+                        }
+
+                        .card-tags {
+                            font-size: .4em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile small
+
+@media screen and (max-width: 650px) {
+
+    // Main page
+
+    #main {
+        #description {
+            width: 20em;
+        }
+    }
+
+    // Portfolio pages
+
+    #main {
+        #header {
+            width: 17em;
+        }
+
+        #container {
+            grid-template-columns: auto;
+        }
     }
 }
