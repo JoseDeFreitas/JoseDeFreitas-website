@@ -157,7 +157,7 @@ img {
         grid-gap: .5em;
 
         .card {
-            width: 20em;
+            width: 18em;
             height: auto;
             border: 2px solid #d3d3d3;
             padding: .8em;
@@ -222,5 +222,13 @@ img {
         .card:hover {
             border: 2px solid lightgreen;
         }
+    }
+}
+
+// Media queries
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 50%;
     }
 }
