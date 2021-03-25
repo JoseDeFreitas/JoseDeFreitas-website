@@ -6,6 +6,7 @@ export default function Home() {
         <>
             <Head>
                 <title>Home - José De Freitas</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta name="description" content="Portfolio of José De Freitas"/>
                 <meta name="keywords" content="Portfolio, Programming, Translation"/>
                 <meta name="author" content="José De Freitas"/>
