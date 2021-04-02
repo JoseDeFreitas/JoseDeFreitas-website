@@ -14,14 +14,14 @@ export default function Home() {
             </Head>
 
             <Layout>
-                <main id="main">
-                    <section id="author">
-                        <h1 id="name">José De Freitas</h1>
-                        <p id="title">Programmer and translator</p>
+                <main class="container mx-auto">
+                    <section>
+                        <h1>José De Freitas</h1>
+                        <p>Programmer and translator</p>
                         <a href="https://ko-fi.com/D1D62AAG8" target="_blank"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi button"/></a>
                     </section>
-                    <section id="description">
-                        <div id="programming">
+                    <section>
+                        <div>
                             <h2>Programming</h2>
                             <p>
                                 I code various types of programs. I like many topics, but to
@@ -36,7 +36,7 @@ export default function Home() {
                                 technologies I know git and the main IDE I use is Visual Studio Code.
                             </p>
                         </div>
-                        <div id="translation">
+                        <div>
                             <h2>Translation</h2>
                             <p>
                                 I'm a native Spanish speaker that have been lerning English years ago.
@@ -52,7 +52,7 @@ export default function Home() {
                             </p>
                         </div>
                     </section>
-                    <section id="contact">
+                    <section>
                         <p>Contact:</p>
                         <ul>
                             <li>

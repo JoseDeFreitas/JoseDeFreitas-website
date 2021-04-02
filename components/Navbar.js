@@ -1,22 +1,14 @@
-import Link from 'next/link'
-
 const Navbar = () => (
-    <nav id="navbar">
-        <ul>
+    <nav className="fixed ml-8">
+        <ul className="flex flex-col">
             <li>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
+                <a href="/#home" class="bg-first-500">Home</a>
             </li>
             <li>
-                <Link href="/portfolio/programming">
-                    <a>Programming</a>
-                </Link>
+                <a href="#programming">Programming</a>
             </li>
             <li>
-                <Link href="/portfolio/translation">
-                    <a>Translation</a>
-                </Link>
+                <a href="#translation">Translation</a>
             </li>
         </ul>
     </nav>
