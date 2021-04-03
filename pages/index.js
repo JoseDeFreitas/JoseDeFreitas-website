@@ -29,7 +29,7 @@ export default function Home() {
                         <div>
                             <h1>Hi</h1>
                         </div>
-                        <div className="absolute bg-first-400 bottom-0 w-full p-4">
+                        <div className="absolute bg-first-400 bottom-0 w-full p-4 border-t-8 border-first-600">
                             <div className="grid grid-cols-3 gap-4 justify-items-stretch">
                                 <a href="https://github.com/JoseDeFreitas" className="p-2 rounded-lg bg-second-500 text-fourth text-lg text-center font-bold hover:bg-second-600" target="_blank">GitHub</a>
                                 <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded-lg bg-second-500 text-fourth text-lg text-center font-bold hover:bg-second-600" target="_blank">Crowdin</a>
