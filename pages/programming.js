@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Layout from '../../components/layout'
-import { programmingProjects } from "../../public/data/data_programming"
+import Layout from '../components/layout'
+import { programmingProjects } from "../public/data/data_programming"
 
 export const getStaticProps = async () => {
     return {
