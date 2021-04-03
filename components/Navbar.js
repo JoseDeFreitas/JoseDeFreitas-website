@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
-        <nav className="fixed h-full">
-            <ul className="h-full grid grid-cols-1 gap-8 place-content-center p-3 rounded-r-lg bg-first-200">
+        <nav className="fixed h-screen">
+            <ul className="h-screen grid grid-cols-1 gap-8 place-content-center p-3 bg-first-200">
                 <li>
                     <a href="/" className="p-3 rounded-lg bg-first-500 text-fourth text-lg font-extrabold hover:bg-first-600">Home</a>
                 </li>

@@ -14,7 +14,7 @@ export default function Home() {
             </Head>
 
             <Layout>
-                <main className="container mx-auto">
+                <main className="h-screen">
                     <section>
                         <h1>José De Freitas</h1>
                         <p>Programmer and translator</p>
