@@ -1,17 +1,17 @@
-const Navbar = () => (
-    <nav className="fixed ml-8">
-        <ul className="flex flex-col">
-            <li>
-                <a href="/#home" class="bg-first-500">Home</a>
-            </li>
-            <li>
-                <a href="#programming">Programming</a>
-            </li>
-            <li>
-                <a href="#translation">Translation</a>
-            </li>
-        </ul>
-    </nav>
-)
-
-export default Navbar;
+export default function Navbar() {
+    return (
+        <nav className="fixed ml-8">
+            <ul className="grid grid-cols-1 gap-10 p-5 rounded-md bg-first-200">
+                <li>
+                    <a href="#start" class="p-3 rounded-md bg-first-500 text-fourth text-lg">Start</a>
+                </li>
+                <li>
+                    <a href="#programming" class="p-3 rounded-md bg-first-500 text-fourth text-lg">Programming</a>
+                </li>
+                <li>
+                    <a href="#translation" class="p-3 rounded-md bg-first-500 text-fourth text-lg">Translation</a>
+                </li>
+            </ul>
+        </nav>
+    )
+}

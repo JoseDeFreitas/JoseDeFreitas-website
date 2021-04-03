@@ -13,8 +13,8 @@ module.exports = {
       current: 'currentColor',
       first: colors.emerald,
       second: colors.teal,
-      third: colors.coolGray
-
+      third: colors.coolGray,
+      fourth: colors.white,
     },
     extend: {},
   },
