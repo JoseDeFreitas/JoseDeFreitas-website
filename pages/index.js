@@ -15,14 +15,14 @@ export default function Home() {
 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-2 grid-rows-2">
-                    <section className="col-start-1 col-end-2 row-start-1 row-end-3 p-12 bg-second-300">
-                        <div>
-                            <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-56 rounded-full"/>
-                            <h1>José De Freitas</h1>
-                            <p>Programmer and translator</p>
+                    <section className="col-start-1 col-end-2 row-start-1 row-end-3 p-12 bg-second-400 border-r-8 border-second-600">
+                        <div className="mb-12">
+                            <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-56 rounded-full mb-4"/>
+                            <h1 className="text-fourth font-bold text-5xl">José De Freitas</h1>
+                            <p className="text-fourth font-semibold text-2xl">Programmer and translator</p>
                         </div>
                         <div>
-                            <p>About me (bla bla bla not!)</p>
+                            <p className="text-fourth font-semibold text-xl">About me (bla bla bla not!)</p>
                         </div>
                     </section>
                     <section className="col-start-2 col-end-3 row-start-1 row-end-2">
