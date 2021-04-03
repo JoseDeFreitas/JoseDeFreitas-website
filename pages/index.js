@@ -15,7 +15,7 @@ export default function Home() {
 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-2 grid-rows-2">
-                    <section className="col-start-1 col-end-2 row-start-1 row-end-3 p-12">
+                    <section className="col-start-1 col-end-2 row-start-1 row-end-3 p-12 bg-second-300">
                         <div>
                             <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-56 rounded-full"/>
                             <h1>José De Freitas</h1>
