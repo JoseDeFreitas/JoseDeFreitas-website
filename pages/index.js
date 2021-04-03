@@ -15,7 +15,7 @@ export default function Home() {
 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-2">
-                    <section className="col-start-1 col-end-2 p-12 bg-second-500 border-r-8 border-second-700">
+                    <section className="col-start-1 col-end-2 p-12 bg-second-500 border-r-8 border-first-600">
                         <div className="mb-12">
                             <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-56 rounded-full mb-4"/>
                             <h1 className="text-fourth font-bold text-5xl">José De Freitas</h1>
@@ -26,8 +26,18 @@ export default function Home() {
                         </div>
                     </section>
                     <section className="relative col-start-2 col-end-3">
-                        <div>
-                            <h1>Hi</h1>
+                        <div className="h-full bg-second-500 p-4">
+                            <div className="grid grid-rows-3 gap-4">
+                                <div className="bg-first-400 p-3 rounded-lg">
+                                    <h2>Overall</h2>
+                                </div>
+                                <div className="bg-first-400 p-3 rounded-lg">
+                                    <h2>Programming languages</h2>
+                                </div>
+                                <div className="bg-first-400 p-3 rounded-lg">
+                                    <h2>Technologies</h2>
+                                </div>
+                            </div>
                         </div>
                         <div className="absolute bg-first-400 bottom-0 w-full p-4 border-t-8 border-first-600">
                             <div className="grid grid-cols-3 gap-4 justify-items-stretch">
