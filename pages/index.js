@@ -13,6 +13,7 @@ export const getStaticProps = async () => {
 }
 
 export default function Home({ overallList, planguagesList, technologiesList }) {
+    const today = new Date()
     return (
         <>
             <Head>

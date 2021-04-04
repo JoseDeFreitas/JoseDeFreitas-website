@@ -18,6 +18,11 @@ export const statsPLanguages = [
         color: 'blue'
     },
     {
+        name: 'C#',
+        date: '02/2021',
+        color: 'green'
+    },
+    {
         name: 'JavaScript',
         date: '01/2018',
         color: 'yellow'
@@ -33,9 +38,9 @@ export const statsPLanguages = [
         color: 'purple'
     },
     {
-        name: 'C#',
-        date: '02/2021',
-        color: 'green'
+        name: 'C++',
+        date: '01/2021',
+        color: 'pink'
     },
     {
         name: 'Markdown',
@@ -57,6 +62,11 @@ export const statsTechnologies = [
     },
     {
         name: 'Visual Studio Code',
+        date: '03/2019',
+        color: 'gray'
+    },
+    {
+        name: 'GitHub',
         date: '03/2019',
         color: 'gray'
     }
