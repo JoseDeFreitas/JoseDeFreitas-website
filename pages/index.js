@@ -15,7 +15,7 @@ export default function Home() {
 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-2">
-                    <section className="col-start-1 col-end-2 p-12 bg-second-500 border-r-8 border-first-600">
+                    <section className="col-start-1 col-end-2 p-12 bg-first-600 border-r-8 border-first-700">
                         <div className="mb-12">
                             <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-56 rounded-full mb-4"/>
                             <h1 className="text-fourth font-bold text-5xl">José De Freitas</h1>
@@ -25,25 +25,25 @@ export default function Home() {
                             <p className="text-fourth font-semibold text-xl">About me (bla bla bla not!)</p>
                         </div>
                     </section>
-                    <section className="relative col-start-2 col-end-3">
-                        <div className="h-full bg-second-500 p-4">
+                    <section className="relative col-start-2 col-end-3 bg-first-600">
+                        <div className="h-full p-4">
                             <div className="grid grid-rows-3 gap-4">
-                                <div className="bg-first-400 p-3 rounded-lg">
+                                <div className="bg-first-500 p-3 rounded-lg">
                                     <h2>Overall</h2>
                                 </div>
-                                <div className="bg-first-400 p-3 rounded-lg">
+                                <div className="bg-first-500 p-3 rounded-lg">
                                     <h2>Programming languages</h2>
                                 </div>
-                                <div className="bg-first-400 p-3 rounded-lg">
+                                <div className="bg-first-500 p-3 rounded-lg">
                                     <h2>Technologies</h2>
                                 </div>
                             </div>
                         </div>
-                        <div className="absolute bg-first-400 bottom-0 w-full p-4 border-t-8 border-first-600">
+                        <div className="absolute bg-first-600 bottom-0 w-full p-4 border-t-8 border-first-700">
                             <div className="grid grid-cols-3 gap-4 justify-items-stretch">
-                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded-lg bg-second-500 text-fourth text-lg text-center font-bold hover:bg-second-600" target="_blank">GitHub</a>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded-lg bg-second-500 text-fourth text-lg text-center font-bold hover:bg-second-600" target="_blank">Crowdin</a>
-                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded-lg bg-second-500 text-fourth text-lg text-center font-bold hover:bg-second-600" target="_blank">Twitter</a>
+                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded-lg bg-first-500 text-fourth text-lg text-center font-bold hover:bg-first-400" target="_blank">GitHub</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded-lg bg-first-500 text-fourth text-lg text-center font-bold hover:bg-first-400" target="_blank">Crowdin</a>
+                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded-lg bg-first-500 text-fourth text-lg text-center font-bold hover:bg-first-400" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </section>
