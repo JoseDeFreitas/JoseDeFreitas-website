@@ -1,7 +1,18 @@
 import Head from "next/head";
 import Layout from '../components/layout'
+import { statsOverall, statsPLanguages, statsTechnologies } from '../public/data/data_statistics'
 
-export default function Home() {
+export const getStaticProps = async () => {
+    return {
+        props: {
+            overallList: statsOverall,
+            planguagesList: statsPLanguages,
+            technologiesList: statsTechnologies,
+        }
+    }
+}
+
+export default function Home({ overallList, planguagesList, technologiesList }) {
     return (
         <>
             <Head>
@@ -34,17 +45,38 @@ export default function Home() {
                             <div className="grid grid-rows-3 gap-4">
                                 <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
                                     <h2 className="text-first-800 font-semibold">Overall</h2>
+                                    <div className="grid grid-flow-col mt-3">
+                                        {overallList.map(item => (
+                                            <div>
+                                                <p className="w-max p-1 rounded bg-first-400 text-sm">{item.name}</p>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
                                 <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
                                     <h2 className="text-first-800 font-semibold">Programming languages</h2>
+                                    <div className="grid grid-flow-col mt-3">
+                                        {planguagesList.map(item => (
+                                            <div>
+                                                <p className="w-max p-1 rounded bg-first-400 text-sm">{item.name}</p>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
                                 <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
                                     <h2 className="text-first-800 font-semibold">Technologies</h2>
+                                    <div className="grid grid-flow-col mt-3 justify-self-stretch">
+                                        {technologiesList.map(item => (
+                                            <div>
+                                                <p className="w-max p-1 rounded bg-first-400 text-sm">{item.name}</p>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="absolute bg-first-100 bottom-0 w-full p-4 border-t-2 border-first-200">
-                            <div className="grid grid-cols-3 gap-4 justify-items-stretch">
+                            <div className="grid grid-flow-col gap-4 justify-items-stretch">
                                 <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">GitHub</a>
                                 <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Crowdin</a>
                                 <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Twitter</a>
