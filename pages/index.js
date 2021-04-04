@@ -15,35 +15,39 @@ export default function Home() {
 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-2">
-                    <section className="col-start-1 col-end-2 p-12 bg-first-600 border-r-8 border-first-700">
-                        <div className="mb-12">
-                            <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-56 rounded-full mb-4"/>
-                            <h1 className="text-fourth font-bold text-5xl">José De Freitas</h1>
-                            <p className="text-fourth font-semibold text-2xl">Programmer and translator</p>
+                    <section className="col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
+                        <div className="grid auto-cols-max mb-12 bg-first-100 rounded border-2 border-first-300 p-5">
+                            <div className="col-start-1 col-end-2 self-center">
+                                <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-52 rounded-full"/>
+                            </div>
+                            <div className="col-start-2 col-end-3 self-center ml-8">
+                                <h1 className="text-first-800 font-bold text-5xl">José De Freitas</h1>
+                                <p className="text-first-800 font-semibold text-2xl">Programmer and translator</p>
+                            </div>
                         </div>
                         <div>
-                            <p className="text-fourth font-semibold text-xl">About me (bla bla bla not!)</p>
+                            <p className="text-first-600 font-semibold text-xl">About me (bla bla bla not!)</p>
                         </div>
                     </section>
-                    <section className="relative col-start-2 col-end-3 bg-first-600">
+                    <section className="relative col-start-2 col-end-3 bg-first-50">
                         <div className="h-full p-4">
                             <div className="grid grid-rows-3 gap-4">
-                                <div className="bg-first-500 p-3 rounded-lg">
-                                    <h2>Overall</h2>
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
+                                    <h2 className="text-first-800 font-semibold">Overall</h2>
                                 </div>
-                                <div className="bg-first-500 p-3 rounded-lg">
-                                    <h2>Programming languages</h2>
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
+                                    <h2 className="text-first-800 font-semibold">Programming languages</h2>
                                 </div>
-                                <div className="bg-first-500 p-3 rounded-lg">
-                                    <h2>Technologies</h2>
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
+                                    <h2 className="text-first-800 font-semibold">Technologies</h2>
                                 </div>
                             </div>
                         </div>
-                        <div className="absolute bg-first-600 bottom-0 w-full p-4 border-t-8 border-first-700">
+                        <div className="absolute bg-first-100 bottom-0 w-full p-4 border-t-2 border-first-200">
                             <div className="grid grid-cols-3 gap-4 justify-items-stretch">
-                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded-lg bg-first-500 text-fourth text-lg text-center font-bold hover:bg-first-400" target="_blank">GitHub</a>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded-lg bg-first-500 text-fourth text-lg text-center font-bold hover:bg-first-400" target="_blank">Crowdin</a>
-                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded-lg bg-first-500 text-fourth text-lg text-center font-bold hover:bg-first-400" target="_blank">Twitter</a>
+                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">GitHub</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Crowdin</a>
+                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </section>
