@@ -38,7 +38,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                         </div>
                         <div>
-                            <p className="text-first-600 font-semibold text-xl">About me (bla bla bla not!)</p>
+                            <p className="text-first-600 font-semibold text-xl"><i>soon.</i></p>
                         </div>
                     </section>
                     <section className="relative col-start-2 col-end-3 bg-first-50">
