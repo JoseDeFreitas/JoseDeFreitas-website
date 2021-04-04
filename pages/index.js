@@ -41,34 +41,34 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         </div>
                     </section>
                     <section className="relative col-start-2 col-end-3 bg-first-50">
-                        <div className="h-full p-4">
-                            <div className="grid grid-rows-3 gap-4">
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
+                        <div className="h-min p-4">
+                            <div className="grid grid-rows-3 gap-4 h-max">
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
                                     <h2 className="text-first-800 font-semibold">Overall</h2>
-                                    <div className="grid grid-flow-col mt-3">
+                                    <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {overallList.map(item => (
-                                            <div>
-                                                <p className="w-max p-1 rounded bg-first-400 text-sm">{item.name}</p>
+                                            <div className="w-max">
+                                                <p className={"py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name}</p>
                                             </div>
                                         ))}
                                     </div>
                                 </div>
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
                                     <h2 className="text-first-800 font-semibold">Programming languages</h2>
-                                    <div className="grid grid-flow-col mt-3">
+                                    <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {planguagesList.map(item => (
-                                            <div>
-                                                <p className="w-max p-1 rounded bg-first-400 text-sm">{item.name}</p>
+                                            <div className="w-max">
+                                                <p className={"py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name}</p>
                                             </div>
                                         ))}
                                     </div>
                                 </div>
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded">
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
                                     <h2 className="text-first-800 font-semibold">Technologies</h2>
-                                    <div className="grid grid-flow-col mt-3 justify-self-stretch">
+                                    <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {technologiesList.map(item => (
-                                            <div>
-                                                <p className="w-max p-1 rounded bg-first-400 text-sm">{item.name}</p>
+                                            <div className="w-max">
+                                                <p className={"py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name}</p>
                                             </div>
                                         ))}
                                     </div>
