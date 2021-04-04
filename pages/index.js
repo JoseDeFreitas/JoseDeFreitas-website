@@ -27,7 +27,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-2">
                     <section className="col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
-                        <div className="grid auto-cols-max mb-12 bg-first-100 rounded border-2 border-first-300 p-5">
+                        <div className="grid auto-cols-max mb-10 bg-first-100 rounded border-2 border-first-300 p-5">
                             <div className="col-start-1 col-end-2 self-center">
                                 <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-52 rounded-full"/>
                             </div>
@@ -41,7 +41,11 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         </div>
                     </section>
                     <section className="relative col-start-2 col-end-3 bg-first-50">
-                        <div className="h-min p-4">
+                        <div className="h-max p-4">
+                            <div className="mb-6">
+                                <h2 className="font-bold text-first-800 text-2xl mb-2">Experience</h2>
+                                <p className="font-semibold text-first-600">Below you can see my experience using different technologies. The "Overall" section wraps wide topics. The "Programming languages" section wraps both programming and markup languages. Finally, the "Technologies" section wraps some technologies I use. There's some information I don't include in here, such as my spoken languages, libraries/packages I work with, etc. That information can be seen at the other pages of my website.</p>
+                            </div>
                             <div className="grid grid-rows-3 gap-4 h-max">
                                 <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
                                     <h2 className="text-first-800 font-semibold">Overall</h2>
