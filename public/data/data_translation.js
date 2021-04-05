@@ -1,6 +1,5 @@
 export const translationProjects = [
     {
-        id: 1,
         name: 'clean-code-typescript',
         description: 'Clean Code concepts adapted for TypeScript (in Spanish).',
         creation: '15/06/2020',
@@ -10,7 +9,6 @@ export const translationProjects = [
         tags: ['TypeScript', 'guide']
     },
     {
-        id: 2,
         name: 'github-readme-stats',
         description: '⚡ Dynamically generated stats for your github readmes.',
         creation: '20/07/2020',
@@ -20,7 +18,6 @@ export const translationProjects = [
         tags: ['readme', 'GitHub']
     },
     {
-        id: 3,
         name: 'Melon',
         description: 'UNES, o aplicativo que cria notificações para as ações do Portal Sagres.',
         creation: '04/10/2020',
@@ -30,7 +27,6 @@ export const translationProjects = [
         tags: ['strings', 'application', 'Android']
     },
     {
-        id: 4,
         name: 'awesome-translations',
         description: '😎 Awesome lists about Internationalization & localization stuff. l10n, g11n, m17n, i18n. Translations! 🌎🌍.',
         creation: '27/11/2020',
@@ -40,7 +36,6 @@ export const translationProjects = [
         tags: ['translations', 'list']
     },
     {
-        id: 5,
         name: 'ultimate-python',
         description: 'Ultimate Python study guide for newcomers and professionals alike. 🐍 🐍 🐍.',
         creation: '27/12/2020',
@@ -50,7 +45,6 @@ export const translationProjects = [
         tags: ['Python', 'guide']
     },
     {
-        id: 6,
         name: 'learn-python',
         description: '📚 Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.',
         creation: '18/01/2021',
@@ -60,7 +54,6 @@ export const translationProjects = [
         tags: ['Python', 'guide']
     },
     {
-        id: 7,
         name: 'wtfpython',
         description: 'What the f*ck Python? 😱 (in Spanish).',
         creation: '24/02/2021',
@@ -70,7 +63,6 @@ export const translationProjects = [
         tags: ['Python', 'guide']
     },
     {
-        id: 8,
         name: 'learncpp.es',
         description: 'Contenido de learncpp.com traducido al español.',
         creation: '09/03/2021',
@@ -78,5 +70,5 @@ export const translationProjects = [
         translation: 'https://github.com/JoseDeFreitas/learncpp.es#readme',
         pr: null,
         tags: ['C++', 'guide']
-    }
+    },
 ]
