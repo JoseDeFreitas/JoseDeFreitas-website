@@ -22,12 +22,20 @@ export default function Programming({ projectsList }) {
                     <section className="col-start-1 col-end-2 p-10 bg-first-50 border-r-2 border-first-200">
                         <h1 className="font-bold text-first-800 text-2xl mb-2">Programming</h1>
                         <p className="font-semibold text-first-600">
-                            The project I've been working on and that I've made.<br/>
-                            Each card consists of the project name, the project description, the project
-                            publication date (I update most of them when needed), the link to the project
-                            page (usually a GitHub repository) and some tags (including the programming
-                            language I've used).<br/>
-                            These project are of various topics and are open-source.
+                            At the left you can see all my programming projects. All of them are open
+                            source!<br/><br/>
+                            The "Project" button links to the GitHub repository where you can see the
+                            code behind the project. The "Website" button links to the website of the
+                            project (if available).<br/><br/>
+                            Programming gives you a lot of possibilities to do whatever you want. You
+                            can find many types of projects in here, but most of them are websites
+                            (frontend and backed), desktop applications, packages/libraries and general
+                            scripts.<br/><br/>
+                            My main programming languages are Python, C# and JavaScript, though I
+                            sometimes use other ones.<br/><br/>
+                            I've worked with plenty of libraries. I like using Flask for backend apps
+                            and Avalonia for desktop apps. I try to integrate these with other
+                            librearies in order to provide a good product.
                         </p>
                     </section>
                     <section className="col-start-2 col-end-5 p-6 bg-first-50 overflow-y-auto">
