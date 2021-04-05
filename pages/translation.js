@@ -19,7 +19,7 @@ export default function Translation({ projectsList }) {
 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-4">
-                    <section className="col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
+                    <section className="col-start-1 col-end-2 p-10 bg-first-50 border-r-2 border-first-200">
                         <h1 className="font-bold text-first-800 text-2xl mb-2">Translation</h1>
                         <p className="font-semibold text-first-600">
                             The documents I've translated from English to Spanish.<br/>
