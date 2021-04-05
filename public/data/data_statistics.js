@@ -1,12 +1,12 @@
 export const statsOverall = [
     {
         name: 'Programming',
-        date: '01/2018',
+        date: '20180101',
         color: 'gray'
     },
     {
         name: 'Translation',
-        date: '01/2020',
+        date: '20200101',
         color: 'gray'
     }
 ]
@@ -14,42 +14,42 @@ export const statsOverall = [
 export const statsPLanguages = [
     {
         name: 'Python',
-        date: '01/2020',
+        date: '20200101',
         color: 'blue'
     },
     {
         name: 'C#',
-        date: '02/2021',
+        date: '20210201',
         color: 'green'
     },
     {
         name: 'JavaScript',
-        date: '01/2018',
+        date: '20180101',
         color: 'yellow'
     },
     {
         name: 'HTML',
-        date: '01/2018',
+        date: '20180101',
         color: 'orange'
     },
     {
         name: 'CSS',
-        date: '01/2018',
+        date: '20180101',
         color: 'purple'
     },
     {
         name: 'C++',
-        date: '01/2021',
+        date: '20210101',
         color: 'pink'
     },
     {
         name: 'Markdown',
-        date: '03/2019',
+        date: '20190301',
         color: 'gray'
     },
     {
         name: 'XML',
-        date: '02/2021',
+        date: '20210201',
         color: 'gray'
     }
 ]
@@ -57,17 +57,17 @@ export const statsPLanguages = [
 export const statsTechnologies = [
     {
         name: 'Git',
-        date: '04/2020',
+        date: '20200401',
         color: 'gray'
     },
     {
         name: 'Visual Studio Code',
-        date: '03/2019',
+        date: '20190301',
         color: 'gray'
     },
     {
         name: 'GitHub',
-        date: '03/2019',
+        date: '20200401',
         color: 'gray'
     }
 ]
