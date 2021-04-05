@@ -26,6 +26,11 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
             </Head>
 
             <Layout>
+                <style jsx global>{`
+                    .lname:hover .yname {
+                        visibility: visible;
+                    }
+                `}</style>
                 <main className="pl-48 h-screen grid grid-cols-2">
                     <section className="col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
                         <div className="grid auto-cols-max mb-10 bg-first-100 rounded border-2 border-first-300 p-5">
@@ -53,7 +58,10 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {overallList.map(item => (
                                             <div className="w-max">
-                                                <p className={"py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name} - {moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</p>
+                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>
+                                                    {item.name}
+                                                    <span className="yname absolute z-10 bottom-full left-1/2 invisible text-white bg-first-500 px-1 rounded w-auto">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                                </p>
                                             </div>
                                         ))}
                                     </div>
@@ -63,7 +71,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {planguagesList.map(item => (
                                             <div className="w-max">
-                                                <p className={"py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name} - {moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</p>
+                                                <p className={"cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name} - {moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</p>
                                             </div>
                                         ))}
                                     </div>
@@ -73,7 +81,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {technologiesList.map(item => (
                                             <div className="w-max">
-                                                <p className={"py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name} - {moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</p>
+                                                <p className={"cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name} - {moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</p>
                                             </div>
                                         ))}
                                     </div>
