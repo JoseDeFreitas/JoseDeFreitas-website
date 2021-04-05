@@ -27,6 +27,24 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
 
             <Layout>
                 <style jsx global>{`
+                    .lname .yname {
+                        bottom: 130%;
+                        left: 50%;
+                        width: 34px;
+                        margin-left: -17px;
+                    }
+                    
+                    .lname .yname::after {
+                        content: "";
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        margin-left: -5px;
+                        border-width: 5px;
+                        border-style: solid;
+                        border-color: #6B7280 transparent transparent transparent;
+                    }
+
                     .lname:hover .yname {
                         visibility: visible;
                     }
@@ -50,7 +68,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         <div className="h-max p-4">
                             <div className="mb-6">
                                 <h2 className="font-bold text-first-800 text-2xl mb-2">Experience</h2>
-                                <p className="font-semibold text-first-600">Below you can see my experience using different technologies. The "Overall" section wraps wide topics. The "Programming languages" section wraps both programming and markup languages. Finally, the "Technologies" section wraps some technologies I use. There's some information I don't include in here, such as my spoken languages, libraries/packages I work with, etc. That information can be seen at the other pages of my website. Right next to each item you can see how many years of experience I have with each one.</p>
+                                <p className="font-semibold text-first-600">Below you can see my experience using different technologies. The "Overall" section wraps wide topics. The "Programming languages" section wraps both programming and markup languages. Finally, the "Technologies" section wraps some technologies I use. There's some information I don't include in here, such as my spoken languages, libraries/packages I work with, etc. That information can be seen at the other pages of my website. Hover over an item to see how many years of experience I have with the item you selected.</p>
                             </div>
                             <div className="grid grid-rows-3 gap-4 h-max">
                                 <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
@@ -60,7 +78,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                             <div className="w-max">
                                                 <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>
                                                     {item.name}
-                                                    <span className="yname absolute z-10 bottom-full left-1/2 invisible text-white bg-first-500 px-1 rounded w-auto">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                                    <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
                                                 </p>
                                             </div>
                                         ))}
@@ -71,7 +89,10 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {planguagesList.map(item => (
                                             <div className="w-max">
-                                                <p className={"cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name} - {moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</p>
+                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>
+                                                    {item.name}
+                                                    <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                                </p>
                                             </div>
                                         ))}
                                     </div>
@@ -81,7 +102,10 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {technologiesList.map(item => (
                                             <div className="w-max">
-                                                <p className={"cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>{item.name} - {moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</p>
+                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-200 text-" + item.color + "-700"}>
+                                                    {item.name}
+                                                    <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                                </p>
                                             </div>
                                         ))}
                                     </div>
