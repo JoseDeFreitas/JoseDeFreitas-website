@@ -18,37 +18,37 @@ export default function Programming({ projectsList }) {
             </Head>
 
             <Layout>
-                <main id="main">
-                    <section id="header">
-                        <h1>Programming</h1>
-                        <p>The project I've been working on and that I've made.</p>
-                        <p>
+                <main className="pl-48 h-screen grid grid-cols-4">
+                    <section className="col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
+                        <h1 className="font-bold text-first-800 text-2xl mb-2">Programming</h1>
+                        <p className="font-semibold text-first-600">The project I've been working on and that I've made.<br/>
                             Each card consists of the project name, the project description, the project
                             publication date (I update most of them when needed), the link to the project
                             page (usually a GitHub repository) and some tags (including the programming
-                            language I've used).
+                            language I've used).<br/>
+                            These project are of various topics and are open-source.
                         </p>
-                        <p>These project are of various topics and are open-source.</p>
                     </section>
-                    <section id="container">
-                        {projectsList.map(project => (
-                            <div className="card">
-                                <div className="card-info">
-                                    <h3>{project.name}</h3>
-                                    <p>{project.description}</p>
-                                    <div className="card-extra">
-                                        <p class="date">{project.creation}</p>
-                                        <p class="card-tags">Tags: {project.tags.join(', ')}</p>
+                    <section className="col-start-2 col-end-5 p-6 bg-first-50">
+                        <div className="grid grid-cols-3 gap-4">
+                            {projectsList.map(project => (
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300">
+                                    <div>
+                                        <h3 className="text-first-800 font-semibold text-lg">{project.name}</h3>
+                                        <p className="text-first-700">{project.description}</p>
+                                        <div>
+                                            <p>{project.creation}</p>
+                                            <p className="cursor-default py-1 px-2 rounded text-sm bg-first-200 text-first-700">{project.tags.join(', ')}</p>
+                                        </div>
+                                    </div>
+                                    <div className="pt-3">
+                                        <div className="grid grid-flow-col gap-4 justify-items-stretch">
+                                            <a href={project.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Project</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="card-bottom">
-                                    <hr/>
-                                    <div className="card-links">
-                                        <a href={project.link}>Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
+                            ))}
+                        </div>
                     </section>
                 </main>
             </Layout>
