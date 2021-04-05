@@ -34,7 +34,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                             <div className="col-start-2 col-end-3 self-center ml-8">
                                 <h1 className="text-first-800 font-bold text-5xl">José De Freitas</h1>
-                                <p className="text-first-800 font-semibold text-2xl">Programmer and translator</p>
+                                <p className="text-first-800 font-semibold text-2xl">Software engineer and Translator</p>
                             </div>
                         </div>
                         <div>
