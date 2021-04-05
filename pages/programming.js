@@ -29,8 +29,8 @@ export default function Programming({ projectsList }) {
                             These project are of various topics and are open-source.
                         </p>
                     </section>
-                    <section className="col-start-2 col-end-5 p-6 bg-first-50">
-                        <div className="grid grid-cols-3 gap-4">
+                    <section className="col-start-2 col-end-5 p-6 bg-first-50 overflow-y-auto">
+                        <div className="grid grid-cols-3 gap-4 mb-6">
                             {projectsList.map(project => (
                                 <div className="relative bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300">
                                     <div className="mb-14">
