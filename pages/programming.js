@@ -21,7 +21,8 @@ export default function Programming({ projectsList }) {
                 <main className="pl-48 h-screen grid grid-cols-4">
                     <section className="col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
                         <h1 className="font-bold text-first-800 text-2xl mb-2">Programming</h1>
-                        <p className="font-semibold text-first-600">The project I've been working on and that I've made.<br/>
+                        <p className="font-semibold text-first-600">
+                            The project I've been working on and that I've made.<br/>
                             Each card consists of the project name, the project description, the project
                             publication date (I update most of them when needed), the link to the project
                             page (usually a GitHub repository) and some tags (including the programming
