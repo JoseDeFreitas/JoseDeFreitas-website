@@ -11,7 +11,7 @@ export const programmingProjects = [
         description: 'Portfolio website of José De Freitas (this one you are seeing).',
         creation: '09/02/2021',
         link: 'https://github.com/JoseDeFreitas/JoseDeFreitas-website',
-        tags: ['portfolio', 'website', 'frontend']
+        tags: ['Next.js', 'portfolio', 'website', 'frontend']
     },
     {
         name: 'awesome-youtubers website voting system',
