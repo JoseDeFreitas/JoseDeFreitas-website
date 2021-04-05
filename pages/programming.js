@@ -32,16 +32,19 @@ export default function Programming({ projectsList }) {
                     <section className="col-start-2 col-end-5 p-6 bg-first-50">
                         <div className="grid grid-cols-3 gap-4">
                             {projectsList.map(project => (
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300">
-                                    <div>
+                                <div className="relative bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300">
+                                    <div className="mb-14">
                                         <h3 className="text-first-800 font-semibold text-lg">{project.name}</h3>
                                         <p className="text-first-700">{project.description}</p>
-                                        <div>
-                                            <p>{project.creation}</p>
-                                            <p className="cursor-default py-1 px-2 rounded text-sm bg-first-200 text-first-700">{project.tags.join(', ')}</p>
+                                        <div className="mb-3 mt-2">
+                                            <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
+                                                {project.tags.map(tag => (
+                                                    <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-200 text-gray-700">{tag}</p>
+                                                ))}
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="pt-3">
+                                    <div className="absolute bottom-0 left-0 w-full p-2">
                                         <div className="grid grid-flow-col gap-4 justify-items-stretch">
                                             <a href={project.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Project</a>
                                         </div>
