@@ -23,10 +23,13 @@ export default function Translation({ projectsList }) {
                         <h1 className="font-bold text-first-800 text-2xl mb-2">Translation</h1>
                         <p className="font-semibold text-first-600">
                             I'm a native Spanish speaker who has been interested in languages since a
-                            long time ago. The first language I learned was English back in the day.
-                            I believe that even if you know how to speak and write in a specific language,
-                            the learning progress is still far away. There's a lot of vocabulary and
-                            different forms of speaking/writing. I also like to focus on aspects of the
+                            long time ago.<br/><br/>
+                            The "Source" button links to the original document from the language I
+                            translated it. The "Translation" button links to the translation I made.
+                            The "Context" button links to the conversation or thread created regarding
+                            the translation (if available). Note that many buttons links to GitHub
+                            (because I've also contributed to open-source projects).
+                            project (if available).<br/><br/>
                             language that I don't know; the experience of learning those is awesome.<br/><br/>
                             As a software engineer I have a very good knowledge of IT concepts and the
                             like. Most of the documents I've translated are about some technology or
