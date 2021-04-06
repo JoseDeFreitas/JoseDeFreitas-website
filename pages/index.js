@@ -57,11 +57,21 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                             <div className="col-start-2 col-end-3 self-center ml-8">
                                 <h1 className="text-first-800 font-bold text-5xl">José De Freitas</h1>
-                                <p className="text-first-800 font-semibold text-2xl">Software engineer and Translator</p>
+                                <p className="text-first-800 font-semibold text-2xl">Software Engineer and Translator</p>
                             </div>
                         </div>
                         <div>
-                            <p className="text-first-600 font-semibold text-xl"><i>soon.</i></p>
+                            <p className="text-first-600 font-semibold text-xl">
+                                I'm a Software Engineer who loves to create new projects, especially open-source.
+                                I also love to contribute to other projects in any way in order to make the
+                                project even better.<br/><br/>
+                                I started programming some years ago and is something I'm really motivated
+                                about and that makes me happy. I use plenty of technologies to create
+                                different types of projects, such as websites, applications, libraries, etc.<br/><br/>
+                                I'm a native Spanish speaker that enjoys a lot learning about other languages
+                                and my native one. I like translating different types of documents into my
+                                native language to make available more resources for people who speak Spanish.<br/><br/>
+                            </p>
                         </div>
                         <div className="absolute bg-first-100 bottom-0 left-0 w-full p-4 border-t-2 border-first-200">
                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
