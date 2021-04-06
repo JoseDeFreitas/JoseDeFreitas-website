@@ -25,7 +25,7 @@ export default function Blog({ newPosts, archivePosts }) {
                             <h2 className="font-bold text-first-800 text-2xl mb-2">New</h2>
                             <div className="grid grid-cols-5 gap-4">
                                 {newPosts.map(post => (
-                                    <div className="relative bg-first-100 border-2 border-blue-500 p-3 rounded divide-y-2 divide-blue-500">
+                                    <div className="relative bg-yellow-50 border-2 border-yellow-400 p-3 rounded divide-y-2 divide-yellow-400">
                                         <div className="mb-14">
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
                                             <p className="text-first-700">{post.description}</p>
@@ -43,7 +43,7 @@ export default function Blog({ newPosts, archivePosts }) {
                                         </div>
                                         <div className="absolute bottom-0 left-0 w-full p-2">
                                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                                <a href={post.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-blue-500 hover:bg-blue-100" target="_blank">Read</a>
+                                                <a href={post.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-yellow-400 hover:bg-yellow-100" target="_blank">Read</a>
                                             </div>
                                         </div>
                                     </div>
