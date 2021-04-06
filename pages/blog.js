@@ -23,6 +23,7 @@ export default function Blog({ newPosts, archivePosts }) {
                     <section className="p-12 bg-first-50 overflow-y-auto">
                         <div className="mb-6">
                             <h2 className="font-bold text-first-800 text-2xl mb-2">New</h2>
+                            <p className="text-lg font-semibold text-first-600">No posts available.</p>
                             <div className="grid grid-cols-5 gap-4">
                                 {newPosts.map(post => (
                                     <div className="relative bg-yellow-50 border-2 border-yellow-400 p-3 rounded divide-y-2 divide-yellow-400">
@@ -52,6 +53,7 @@ export default function Blog({ newPosts, archivePosts }) {
                         </div>
                         <div>
                             <h2 className="font-bold text-first-800 text-2xl mb-2">Archive</h2>
+                            <p className="text-lg font-semibold text-first-600">No posts available.</p>
                             <div className="grid grid-cols-5 gap-4">
                                 {archivePosts.map(post => (
                                     <div className="relative bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300">
