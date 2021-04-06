@@ -25,11 +25,15 @@ export default function Blog({ newPosts, archivePosts }) {
                             <h2 className="font-bold text-first-800 text-2xl mb-2">New</h2>
                             <div className="grid grid-cols-5 gap-4">
                                 {newPosts.map(post => (
-                                    <div className="relative bg-first-100 border-2 border-yellow-500 p-3 rounded divide-y-2 divide-yellow-500">
+                                    <div className="relative bg-first-100 border-2 border-blue-500 p-3 rounded divide-y-2 divide-blue-500">
                                         <div className="mb-14">
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
                                             <p className="text-first-700">{post.description}</p>
                                             <div className="mb-3 mt-2">
+                                                <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
+                                                    <p className="font-semibold text-first-800 text-sm">{post.date}</p>
+                                                    <p className="font-semibold text-first-800 text-sm">{post.len}</p>
+                                                </div>
                                                 <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
                                                     {post.tags.map(tag => (
                                                         <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-200 text-gray-700">{tag}</p>
@@ -39,7 +43,7 @@ export default function Blog({ newPosts, archivePosts }) {
                                         </div>
                                         <div className="absolute bottom-0 left-0 w-full p-2">
                                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                                <a href={post.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Read</a>
+                                                <a href={post.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-blue-500 hover:bg-blue-100" target="_blank">Read</a>
                                             </div>
                                         </div>
                                     </div>
@@ -55,6 +59,10 @@ export default function Blog({ newPosts, archivePosts }) {
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
                                             <p className="text-first-700">{post.description}</p>
                                             <div className="mb-3 mt-2">
+                                                <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
+                                                    <p className="font-semibold text-first-800 text-sm">{post.date}</p>
+                                                    <p className="font-semibold text-first-800 text-sm">{post.len}</p>
+                                                </div>
                                                 <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
                                                     {post.tags.map(tag => (
                                                         <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-200 text-gray-700">{tag}</p>
