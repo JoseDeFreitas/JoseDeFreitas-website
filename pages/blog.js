@@ -30,7 +30,7 @@ export default function Blog({ newPosts, archivePosts }) {
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
                                             <p className="text-first-700">{post.description}</p>
                                             <div className="mb-3 mt-2">
-                                                <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
+                                                <div className="grid grid-flow-col auto-cols-max gap-2 mt-2">
                                                     <p className="font-semibold text-first-800 text-sm">{post.date}</p>
                                                     <p className="font-semibold text-first-800 text-sm">{post.len}</p>
                                                 </div>
