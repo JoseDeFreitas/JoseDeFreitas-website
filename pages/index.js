@@ -50,18 +50,18 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                     }
                 `}</style>
                 <main className="pl-48 h-screen grid grid-cols-2">
-                    <section className="relative col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
-                        <div className="grid auto-cols-max mb-10 bg-first-100 rounded border-2 border-first-300 p-5">
+                    <section className="relative col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200 dark:bg-first-700 dark:border-first-900">
+                        <div className="grid auto-cols-max mb-10 bg-first-100 rounded border-2 border-first-300 p-5 dark:bg-first-800 dark:border-first-900">
                             <div className="col-start-1 col-end-2 self-center">
                                 <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-52 rounded-full"/>
                             </div>
                             <div className="col-start-2 col-end-3 self-center ml-8">
-                                <h1 className="text-first-800 font-bold text-5xl">José De Freitas</h1>
-                                <p className="text-first-800 font-semibold text-2xl">Software Engineer and Translator</p>
+                                <h1 className="text-first-800 font-bold text-5xl dark:text-first-100">José De Freitas</h1>
+                                <p className="text-first-800 font-semibold text-2xl dark:text-first-100">Software Engineer and Translator</p>
                             </div>
                         </div>
                         <div>
-                            <p className="text-first-600 font-semibold text-xl">
+                            <p className="text-first-600 font-semibold text-xl dark:text-first-300">
                                 I'm a Software Engineer who loves to create new projects, especially open-source.
                                 I also love to contribute to other projects in any way in order to make the
                                 project even better.<br/><br/>
@@ -73,19 +73,19 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                 native language to make available more resources for people who speak Spanish.<br/><br/>
                             </p>
                         </div>
-                        <div className="absolute bg-first-100 bottom-0 left-0 w-full p-4 border-t-2 border-first-200">
+                        <div className="absolute bg-first-100 bottom-0 left-0 w-full p-4 border-t-2 border-first-200 dark:bg-first-800 dark:border-first-900">
                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-gray-300" target="_blank">GitHub</a>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-green-300" target="_blank">Crowdin</a>
-                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-blue-300" target="_blank">Twitter</a>
+                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-gray-300 dark:text-first-100 dark:border-first-900 dark:hover:bg-gray-700" target="_blank">GitHub</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-green-300 dark:text-first-100 dark:border-first-900 dark:hover:bg-green-700" target="_blank">Crowdin</a>
+                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-blue-300 dark:text-first-100 dark:border-first-900 dark:hover:bg-blue-700" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </section>
-                    <section className="col-start-2 col-end-3 bg-first-50">
+                    <section className="col-start-2 col-end-3 bg-first-50 dark:bg-first-700">
                         <div className="h-max p-4">
                             <div className="mb-4">
-                                <h2 className="font-bold text-first-800 text-2xl mb-2">Experience</h2>
-                                <p className="font-semibold text-first-600">
+                                <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
+                                <p className="font-semibold text-first-600 dark:text-first-300">
                                     Below you can see my experience using different technologies. The "Overall"
                                     section wraps wide topics. The "Programming languages" section wraps both
                                     programming and markup languages. Finally, the "Technologies" section wraps
@@ -96,8 +96,8 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                 </p>
                             </div>
                             <div className="grid grid-rows-3 gap-4 h-max">
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
-                                    <h2 className="text-first-800 font-semibold">Overall</h2>
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Overall</h2>
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {overallList.map(item => (
                                             <div className="w-max">
@@ -109,8 +109,8 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                         ))}
                                     </div>
                                 </div>
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
-                                    <h2 className="text-first-800 font-semibold">Programming languages</h2>
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Programming languages</h2>
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {planguagesList.map(item => (
                                             <div className="w-max">
@@ -122,8 +122,8 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                         ))}
                                     </div>
                                 </div>
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max">
-                                    <h2 className="text-first-800 font-semibold">Technologies</h2>
+                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Technologies</h2>
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {technologiesList.map(item => (
                                             <div className="w-max">
