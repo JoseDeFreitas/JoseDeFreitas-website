@@ -13,7 +13,7 @@ export default function Navbar() {
                 <Link href="/translation">
                     <a className="p-2 rounded text-base font-semibold text-first-800 hover:bg-first-200">Translation</a>
                 </Link>
-                <Link href="/translation">
+                <Link href="/blog">
                     <a className="p-2 rounded text-base font-semibold text-first-800 hover:bg-first-200">Blog</a>
                 </Link>
             </div>
