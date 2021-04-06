@@ -25,8 +25,8 @@ export default function Blog({ newPosts, archivePosts }) {
                             <h2 className="font-bold text-first-800 text-2xl mb-2">New</h2>
                             <div className="grid grid-cols-5 gap-4">
                                 {newPosts.map(post => (
-                                    <div className="relative bg-first-100 border-2 border-yellow-300 p-3 rounded divide-y-2 divide-first-300">
-                                        <div>
+                                    <div className="relative bg-first-100 border-2 border-yellow-500 p-3 rounded divide-y-2 divide-yellow-500">
+                                        <div className="mb-14">
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
                                             <p className="text-first-700">{post.description}</p>
                                             <div className="mb-3 mt-2">
@@ -50,7 +50,7 @@ export default function Blog({ newPosts, archivePosts }) {
                             <h2 className="font-bold text-first-800 text-2xl mb-2">Archive</h2>
                             <div className="grid grid-cols-5 gap-4">
                                 {archivePosts.map(post => (
-                                    <div className="relative bg-first-100 border-2 border-yellow-300 p-3 rounded divide-y-2 divide-first-300">
+                                    <div className="relative bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300">
                                         <div className="mb-14">
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
                                             <p className="text-first-700">{post.description}</p>
