@@ -1,16 +1,17 @@
 import Head from "next/head";
 import Layout from '../components/layout'
-import { blogPosts } from '../public/data/data_posts'
+import { blogNew, blogArchive } from '../public/data/data_posts'
 
 export const getStaticProps = async () => {
     return {
         props: {
-            posts: blogPosts,
+            newPosts: blogNew,
+            archivePosts: blogArchive,
         }
     }
 }
 
-export default function Blog({ posts }) {
+export default function Blog({ newPosts, archivePosts }) {
     return (
         <>
             <Head>
@@ -23,7 +24,7 @@ export default function Blog({ posts }) {
                         <div className="mb-6">
                             <h2 className="font-bold text-first-800 text-2xl mb-2">New</h2>
                             <div className="grid grid-cols-5 gap-4">
-                                {posts.map(post => (
+                                {newPosts.map(post => (
                                     <div className="relative bg-first-100 border-2 border-yellow-300 p-3 rounded divide-y-2 divide-first-300">
                                         <div>
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
@@ -48,7 +49,7 @@ export default function Blog({ posts }) {
                         <div>
                             <h2 className="font-bold text-first-800 text-2xl mb-2">Archive</h2>
                             <div className="grid grid-cols-5 gap-4">
-                                {posts.map(post => (
+                                {archivePosts.map(post => (
                                     <div className="relative bg-first-100 border-2 border-yellow-300 p-3 rounded divide-y-2 divide-first-300">
                                         <div className="mb-14">
                                             <h3 className="text-first-800 font-semibold text-lg">{post.name}</h3>
