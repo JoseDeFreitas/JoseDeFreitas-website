@@ -50,7 +50,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                     }
                 `}</style>
                 <main className="pl-48 h-screen grid grid-cols-2">
-                    <section className="col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
+                    <section className="relative col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200">
                         <div className="grid auto-cols-max mb-10 bg-first-100 rounded border-2 border-first-300 p-5">
                             <div className="col-start-1 col-end-2 self-center">
                                 <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-52 rounded-full"/>
@@ -63,8 +63,15 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         <div>
                             <p className="text-first-600 font-semibold text-xl"><i>soon.</i></p>
                         </div>
+                        <div className="absolute bg-first-100 bottom-0 left-0 w-full p-4 border-t-2 border-first-200">
+                            <div className="grid grid-flow-col gap-4 justify-items-stretch">
+                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">GitHub</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Crowdin</a>
+                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Twitter</a>
+                            </div>
+                        </div>
                     </section>
-                    <section className="relative col-start-2 col-end-3 bg-first-50">
+                    <section className="col-start-2 col-end-3 bg-first-50">
                         <div className="h-max p-4">
                             <div className="mb-4">
                                 <h2 className="font-bold text-first-800 text-2xl mb-2">Experience</h2>
@@ -118,13 +125,6 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                         ))}
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="absolute bg-first-100 bottom-0 w-full p-4 border-t-2 border-first-200">
-                            <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">GitHub</a>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Crowdin</a>
-                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </section>
