@@ -101,7 +101,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {overallList.map(item => (
                                             <div className="w-max">
-                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800"}>
+                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
                                                     {item.name}
                                                     <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
                                                 </p>
@@ -114,7 +114,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {planguagesList.map(item => (
                                             <div className="w-max">
-                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800"}>
+                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
                                                     {item.name}
                                                     <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
                                                 </p>
@@ -127,7 +127,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {technologiesList.map(item => (
                                             <div className="w-max">
-                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800"}>
+                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
                                                     {item.name}
                                                     <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
                                                 </p>
