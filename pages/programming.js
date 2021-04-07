@@ -19,9 +19,9 @@ export default function Programming({ projectsList }) {
 
             <Layout>
                 <main className="pl-48 h-screen grid grid-cols-4">
-                    <section className="col-start-1 col-end-2 p-10 bg-first-50 border-r-2 border-first-200">
-                        <h1 className="font-bold text-first-800 text-2xl mb-2">Programming</h1>
-                        <p className="font-semibold text-first-600">
+                    <section className="col-start-1 col-end-2 p-10 bg-first-50 border-r-2 border-first-200 dark:bg-first-700 dark:border-first-900">
+                        <h1 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Programming</h1>
+                        <p className="font-semibold text-first-600 dark:text-first-300">
                             At the left you can see all my programming projects. All of them are open
                             source!<br/><br/>
                             The "Project" button links to the GitHub repository where you can see the
@@ -38,13 +38,13 @@ export default function Programming({ projectsList }) {
                             librearies in order to provide a good product.
                         </p>
                     </section>
-                    <section className="col-start-2 col-end-5 p-6 bg-first-50 overflow-y-auto">
+                    <section className="col-start-2 col-end-5 p-6 bg-first-50 overflow-y-auto dark:bg-first-700">
                         <div className="grid grid-cols-3 gap-4 mb-6">
                             {projectsList.map(project => (
-                                <div className="relative bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300">
+                                <div className="relative bg-first-100 border-2 border-first-300 p-3 rounded divide-y-2 divide-first-300 dark:bg-first-800 dark:border-first-900 dark:divide-first-900">
                                     <div className="mb-14">
-                                        <h3 className="text-first-800 font-semibold text-lg">{project.name}</h3>
-                                        <p className="text-first-700">{project.description}</p>
+                                        <h3 className="text-first-800 font-semibold text-lg dark:text-first-100">{project.name}</h3>
+                                        <p className="text-first-700 dark:text-first-200">{project.description}</p>
                                         <div className="mb-3 mt-2">
                                             <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
                                                 {project.tags.map(tag => (
@@ -55,7 +55,7 @@ export default function Programming({ projectsList }) {
                                     </div>
                                     <div className="absolute bottom-0 left-0 w-full p-2">
                                         <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                            <a href={project.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200" target="_blank">Project</a>
+                                            <a href={project.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-first-200 dark:text-first-50 dark:border-first-900 dark:hover:bg-first-900" target="_blank">Project</a>
                                         </div>
                                     </div>
                                 </div>
