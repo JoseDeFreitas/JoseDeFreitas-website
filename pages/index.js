@@ -50,8 +50,8 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                     }
                 `}</style>
                 <main className="pl-48 h-screen grid grid-cols-2">
-                    <section className="relative col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-200 dark:bg-first-700 dark:border-first-900">
-                        <div className="grid auto-cols-max mb-10 bg-first-100 rounded border-2 border-first-300 p-5 dark:bg-first-800 dark:border-first-900">
+                    <section className="relative col-start-1 col-end-2 p-12 bg-first-50 border-r-2 border-first-300 dark:bg-first-700 dark:border-first-900">
+                        <div className="grid auto-cols-max mb-10 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-900">
                             <div className="col-start-1 col-end-2 self-center">
                                 <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-52 rounded-full"/>
                             </div>
@@ -73,11 +73,11 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                 native language to make available more resources for people who speak Spanish.<br/><br/>
                             </p>
                         </div>
-                        <div className="absolute bg-first-100 bottom-0 left-0 w-full p-4 border-t-2 border-first-200 dark:bg-first-800 dark:border-first-900">
+                        <div className="absolute bg-first-200 bottom-0 left-0 w-full p-4 border-t-2 border-first-300 dark:bg-first-800 dark:border-first-900">
                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-gray-200 dark:text-first-100 dark:border-first-900 dark:hover:bg-gray-700" target="_blank">GitHub</a>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-green-200 dark:text-first-100 dark:border-first-900 dark:hover:bg-green-700" target="_blank">Crowdin</a>
-                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-300 hover:bg-blue-200 dark:text-first-100 dark:border-first-900 dark:hover:bg-blue-700" target="_blank">Twitter</a>
+                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-gray-300 dark:text-first-100 dark:border-first-900 dark:hover:bg-gray-700" target="_blank">GitHub</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-green-200 dark:text-first-100 dark:border-first-900 dark:hover:bg-green-700" target="_blank">Crowdin</a>
+                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-blue-200 dark:text-first-100 dark:border-first-900 dark:hover:bg-blue-700" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </section>
@@ -96,7 +96,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                 </p>
                             </div>
                             <div className="grid grid-rows-3 gap-4 h-max">
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
+                                <div className="bg-first-200 border-2 border-first-400 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
                                     <h2 className="text-first-800 font-semibold dark:text-first-100">Overall</h2>
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {overallList.map(item => (
@@ -109,7 +109,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                         ))}
                                     </div>
                                 </div>
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
+                                <div className="bg-first-200 border-2 border-first-400 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
                                     <h2 className="text-first-800 font-semibold dark:text-first-100">Programming languages</h2>
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {planguagesList.map(item => (
@@ -122,7 +122,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                         ))}
                                     </div>
                                 </div>
-                                <div className="bg-first-100 border-2 border-first-300 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
+                                <div className="bg-first-200 border-2 border-first-400 p-3 rounded h-max dark:bg-first-800 dark:border-first-900">
                                     <h2 className="text-first-800 font-semibold dark:text-first-100">Technologies</h2>
                                     <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
                                         {technologiesList.map(item => (
