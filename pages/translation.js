@@ -30,7 +30,6 @@ export default function Translation({ projectsList }) {
                             the translation (if available). Note that many buttons links to GitHub
                             (because I've also contributed to open-source projects).
                             project (if available).<br/><br/>
-                            language that I don't know; the experience of learning those is awesome.<br/><br/>
                             As a software engineer I have a very good knowledge of IT concepts and the
                             like. Most of the documents I've translated are about some technology or
                             service related. However, I also like to translate other kinds of documents.<br/><br/>
