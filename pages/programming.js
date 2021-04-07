@@ -35,7 +35,7 @@ export default function Programming({ projectsList }) {
                             sometimes use other ones.<br/><br/>
                             I've worked with plenty of libraries. I like using Flask for backend apps
                             and Avalonia for desktop apps. I try to integrate these with other
-                            librearies in order to provide a good product.
+                            libraries in order to provide a good product.
                         </p>
                     </section>
                     <section className="col-start-2 col-end-5 p-6 bg-first-50 overflow-y-auto dark:bg-first-700">
