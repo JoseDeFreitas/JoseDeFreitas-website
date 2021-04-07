@@ -48,7 +48,7 @@ export default function Programming({ projectsList }) {
                                         <div className="mb-3 mt-2">
                                             <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
                                                 {project.tags.map(tag => (
-                                                    <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-200 text-gray-700">{tag}</p>
+                                                    <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-300 text-gray-800">{tag}</p>
                                                 ))}
                                             </div>
                                         </div>

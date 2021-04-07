@@ -37,7 +37,7 @@ export default function Blog({ newPosts, archivePosts }) {
                                                 </div>
                                                 <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
                                                     {post.tags.map(tag => (
-                                                        <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-200 text-gray-700">{tag}</p>
+                                                        <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-300 text-gray-800">{tag}</p>
                                                     ))}
                                                 </div>
                                             </div>
@@ -67,7 +67,7 @@ export default function Blog({ newPosts, archivePosts }) {
                                                 </div>
                                                 <div className="grid grid-flow-col auto-cols-max gap-1 mt-2">
                                                     {post.tags.map(tag => (
-                                                        <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-200 text-gray-700">{tag}</p>
+                                                        <p className="cursor-default py-1 px-2 rounded text-xs bg-gray-300 text-gray-800">{tag}</p>
                                                     ))}
                                                 </div>
                                             </div>
