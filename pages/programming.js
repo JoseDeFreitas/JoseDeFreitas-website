@@ -33,9 +33,9 @@ export default function Programming({ projectsList }) {
                             scripts.<br/><br/>
                             My main programming languages are Python, C# and JavaScript, though I
                             sometimes use other ones.<br/><br/>
-                            I've worked with plenty of libraries. I like using Flask for backend apps
-                            and Avalonia for desktop apps. I try to integrate these with other
-                            libraries in order to provide a good product.
+                            I've worked with plenty of libraries. I like using Next.js for the frontend,
+                            Flask for the backend and Avalonia for desktop apps. I try to integrate these
+                            with other libraries in order to provide a good product.
                         </p>
                     </section>
                     <section className="col-start-2 col-end-5 p-6 bg-first-50 overflow-y-auto dark:bg-first-700">
