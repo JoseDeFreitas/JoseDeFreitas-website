@@ -56,7 +56,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                 <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-52 rounded-full"/>
                             </div>
                             <div className="col-start-2 col-end-3 self-center ml-8">
-                                <h1 className="text-first-800 font-bold text-5xl dark:text-first-100">José De Freitas</h1>
+                                <h1 className="text-first-800 font-bold text-5xl dark:text-first-100 xl:text-3xl">José De Freitas</h1>
                                 <p className="text-first-800 font-semibold text-2xl dark:text-first-100">Software Engineer and Translator</p>
                             </div>
                         </div>

@@ -4,11 +4,11 @@ import { useTheme } from 'next-themes'
 export default function Navbar() {
     const { theme, setTheme } = useTheme()
     return (
-        <nav className="fixed h-screen w-48 bg-first-200 border-r-2 border-first-300 dark:bg-first-800 dark:border-first-900">
-            <div className="absolute w-full p-3 left-0 grid grid-flow-col gap-2 justify-items-stretch">
-                <button aria-label="Toggle Dark Mode" type="button" className="py-1 px-2 rounded text-first-700 text-sm text-center font-semibold focus:outline-none focus:ring focus:border-first-500 border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-900 dark:hover:bg-first-900" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>{theme === 'dark' ? "light" : "dark"}</button>
+        <nav className="fixed z-20 h-16 w-screen bg-first-200 border-b-2 border-first-300 dark:bg-first-800 dark:border-first-900 xl:h-screen xl:w-48 xl:border-b-0 xl:border-r-2">
+            <div className="absolute w-auto pt-1 pr-5 right-0 top-0 grid grid-flow-col gap-2 justify-items-stretch xl:w-full xl:right-auto xl:top-auto xl:left-0 xl:p-3">
+                <button aria-label="Toggle Dark Mode" type="button" className="px-1 rounded text-first-700 text-sm text-center font-semibold focus:outline-none focus:ring focus:border-first-500 border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-900 dark:hover:bg-first-900 xl:py-1 xl:px-2" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>{theme === 'dark' ? "light" : "dark"}</button>
             </div>
-            <div className="h-screen w-48 grid grid-cols-1 gap-2 place-content-center p-3 pr-4">
+            <div className="h-16 w-screen grid grid-flow-col gap-3 place-content-center p-2 pr-12 xl:h-screen xl:w-48 xl:grid-flow-row xl:grid-cols-1 xl:gap-2 xl:p-3 xl:pr-4">
                 <Link href="/">
                     <a className="p-2 rounded text-base font-semibold text-first-800 hover:bg-first-300 dark:text-first-100 dark:hover:bg-first-900">Home</a>
                 </Link>
