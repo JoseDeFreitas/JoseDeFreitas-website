@@ -49,8 +49,8 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         visibility: visible;
                     }
                 `}</style>
-                <main className="pt-16 grid grid-cols-1 grid-rows-2">
-                    <section className="relative row-start-1 row-end-2 p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-700 dark:border-first-900">
+                <main className="pt-16 grid grid-cols-1">
+                    <section className="relative p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-700 dark:border-first-900">
                         <div className="grid grid-flow-col mb-6 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-900">
                             <div className="col-start-1 col-end-2 self-center">
                                 <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-36 rounded-full"/>
@@ -60,7 +60,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                 <p className="text-first-800 font-semibold text-lg dark:text-first-100">Software Engineer and Translator</p>
                             </div>
                         </div>
-                        <div className="mb-8">
+                        <div className="mb-10">
                             <p className="text-first-600 font-semibold text-lg text-justify dark:text-first-300">
                                 I'm a Software Engineer who loves to create new projects, especially open-source.
                                 I also love to contribute to other projects in any way in order to make the
@@ -81,7 +81,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                         </div>
                     </section>
-                    <section className="row-start-2 row-end-3 p-6 bg-first-50 dark:bg-first-700">
+                    <section className="p-6 bg-first-50 dark:bg-first-700">
                             <div className="mb-4">
                                 <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
                                 <p className="font-semibold text-first-600 text-justify dark:text-first-300">
