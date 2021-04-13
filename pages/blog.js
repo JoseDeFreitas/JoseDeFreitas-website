@@ -20,7 +20,7 @@ export default function Blog({ newPosts, archivePosts }) {
 
             <Layout>
                 <main className="pt-16 h-screen grid grid-cols-1 xl:pl-48 xl:pt-0">
-                    <section className="p-8 bg-first-50 overflow-y-auto dark:bg-first-700">
+                    <section className="p-8 bg-first-50 overflow-y-auto dark:bg-first-900">
                         <div className="mb-6">
                             <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">New</h2>
                             <p className="text-lg font-semibold text-first-600 dark:text-first-300">No posts available.</p>
@@ -56,7 +56,7 @@ export default function Blog({ newPosts, archivePosts }) {
                             <p className="text-lg font-semibold text-first-600 dark:text-first-300">No posts available.</p>
                             <div className="grid grid-cols-5 gap-4">
                                 {archivePosts.map(post => (
-                                    <div className="relative bg-first-200 border-2 border-first-400 p-3 rounded divide-y-2 divide-first-400 dark:bg-first-800 dark:border-first-900 dark:divide-first-900">
+                                    <div className="relative bg-first-200 border-2 border-first-400 p-3 rounded divide-y-2 divide-first-400 dark:bg-first-800 dark:border-first-600 dark:divide-first-600">
                                         <div className="mb-14">
                                             <h3 className="text-first-800 font-semibold text-lg dark:text-first-100">{post.name}</h3>
                                             <p className="text-first-700 dark:text-first-200">{post.description}</p>
@@ -74,7 +74,7 @@ export default function Blog({ newPosts, archivePosts }) {
                                         </div>
                                         <div className="absolute bottom-0 left-0 w-full p-2">
                                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                                <a href={post.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-900 dark:hover:bg-first-900" target="_blank">Read</a>
+                                                <a href={post.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Read</a>
                                             </div>
                                         </div>
                                     </div>
