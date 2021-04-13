@@ -19,8 +19,8 @@ export default function Blog({ newPosts, archivePosts }) {
             </Head>
 
             <Layout>
-                <main className="pl-48 h-screen grid grid-cols-1">
-                    <section className="p-12 bg-first-50 overflow-y-auto dark:bg-first-700">
+                <main className="pt-16 h-screen grid grid-cols-1 xl:pl-48 xl:pt-0">
+                    <section className="p-8 bg-first-50 overflow-y-auto dark:bg-first-700">
                         <div className="mb-6">
                             <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">New</h2>
                             <p className="text-lg font-semibold text-first-600 dark:text-first-300">No posts available.</p>

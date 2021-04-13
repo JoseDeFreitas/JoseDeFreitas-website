@@ -49,7 +49,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         visibility: visible;
                     }
                 `}</style>
-                <main className="pt-16 grid grid-flow-row md:h-screen md:grid-cols-2 xl:pl-48 xl:pt-0">
+                <main className="pt-16 h-screen grid grid-flow-row md:grid-cols-2 xl:pl-48 xl:pt-0">
                     <section className="relative p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-700 dark:border-first-900 md:border-b-0 md:border-r-2 md:p-10">
                         <div className="grid grid-flow-col mb-6 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-900 xl:auto-cols-max xl:mb-10">
                             <div className="col-start-1 col-end-2 self-center">
