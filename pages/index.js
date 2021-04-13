@@ -50,8 +50,8 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                     }
                 `}</style>
                 <main className="pt-16 h-screen grid grid-flow-row md:grid-cols-2 xl:pl-48 xl:pt-0">
-                    <section className="relative p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-700 dark:border-first-900 md:border-b-0 md:border-r-2 md:p-10">
-                        <div className="grid grid-flow-col mb-6 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-900 xl:auto-cols-max xl:mb-10">
+                    <section className="relative p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-900 dark:border-first-700 md:border-b-0 md:border-r-2 md:p-10">
+                        <div className="grid grid-flow-col mb-6 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-600 xl:auto-cols-max xl:mb-10">
                             <div className="col-start-1 col-end-2 self-center">
                                 <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-36 rounded-full xl:w-28 2xl:w-44"/>
                             </div>
@@ -73,15 +73,15 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                 native language to make available more resources for people who speak Spanish.<br/><br/>
                             </p>
                         </div>
-                        <div className="absolute bg-first-200 bottom-0 left-0 w-full p-4 border-t-2 border-first-300 dark:bg-first-800 dark:border-first-900">
+                        <div className="absolute bg-first-200 bottom-0 left-0 w-full p-4 border-t-2 border-first-300 dark:bg-first-800 dark:border-first-700">
                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-gray-300 dark:text-first-100 dark:border-first-900 dark:hover:bg-gray-700" target="_blank">GitHub</a>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-green-200 dark:text-first-100 dark:border-first-900 dark:hover:bg-green-700" target="_blank">Crowdin</a>
-                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-blue-200 dark:text-first-100 dark:border-first-900 dark:hover:bg-blue-700" target="_blank">Twitter</a>
+                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-gray-300 dark:text-first-100 dark:border-first-600 dark:hover:bg-gray-700" target="_blank">GitHub</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-green-200 dark:text-first-100 dark:border-first-600 dark:hover:bg-green-700" target="_blank">Crowdin</a>
+                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-blue-200 dark:text-first-100 dark:border-first-600 dark:hover:bg-blue-700" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </section>
-                    <section className="p-6 bg-first-50 dark:bg-first-700">
+                    <section className="p-6 bg-first-50 dark:bg-first-900">
                         <div className="mb-4">
                             <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
                             <p className="font-semibold text-first-600 text-justify dark:text-first-300">
@@ -95,7 +95,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </p>
                         </div>
                         <div className="w-full grid grid-flow-row gap-4">
-                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
+                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
                                 <h2 className="text-first-800 font-semibold dark:text-first-100">Overall</h2>
                                 <div className="flex flex-wrap mt-3 p-0.5">
                                     {overallList.map(item => (
@@ -106,7 +106,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     ))}
                                 </div>
                             </div>
-                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
+                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
                                 <h2 className="text-first-800 font-semibold dark:text-first-100">Programming languages</h2>
                                 <div className="flex flex-wrap mt-3 p-0.5">
                                     {planguagesList.map(item => (
@@ -117,7 +117,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     ))}
                                 </div>
                             </div>
-                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
+                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
                                 <h2 className="text-first-800 font-semibold dark:text-first-100">Technologies</h2>
                                 <div className="flex flex-wrap mt-3 p-0.5">
                                     {technologiesList.map(item => (
