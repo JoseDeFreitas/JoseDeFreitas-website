@@ -61,7 +61,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                         </div>
                         <div className="mb-8">
-                            <p className="text-first-600 font-semibold text-lg dark:text-first-300">
+                            <p className="text-first-600 font-semibold text-lg text-justify dark:text-first-300">
                                 I'm a Software Engineer who loves to create new projects, especially open-source.
                                 I also love to contribute to other projects in any way in order to make the
                                 project even better.<br/><br/>
@@ -81,11 +81,10 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                         </div>
                     </section>
-                    <section className="row-start-2 p-6 row-end-3 bg-first-50 dark:bg-first-700">
-                        <div>
+                    <section className="row-start-2 row-end-3 p-6 bg-first-50 dark:bg-first-700">
                             <div className="mb-4">
                                 <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
-                                <p className="font-semibold text-first-600 dark:text-first-300">
+                                <p className="font-semibold text-first-600 text-justify dark:text-first-300">
                                     Below you can see my experience using different technologies. The "Overall"
                                     section wraps wide topics. The "Programming languages" section wraps both
                                     programming and markup languages. Finally, the "Technologies" section wraps
@@ -136,7 +135,6 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </section>
                 </main>
             </Layout>
