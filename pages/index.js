@@ -49,7 +49,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         visibility: visible;
                     }
                 `}</style>
-                <main className="pt-16 grid grid-cols-1">
+                <main className="pt-16 grid grid-flow-row">
                     <section className="relative p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-700 dark:border-first-900">
                         <div className="grid grid-flow-col mb-6 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-900">
                             <div className="col-start-1 col-end-2 self-center">
@@ -82,59 +82,53 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         </div>
                     </section>
                     <section className="p-6 bg-first-50 dark:bg-first-700">
-                            <div className="mb-4">
-                                <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
-                                <p className="font-semibold text-first-600 text-justify dark:text-first-300">
-                                    Below you can see my experience using different technologies. The "Overall"
-                                    section wraps wide topics. The "Programming languages" section wraps both
-                                    programming and markup languages. Finally, the "Technologies" section wraps
-                                    some technologies I use. There's some information I don't include in here,
-                                    such as my spoken languages, libraries/packages I work with, etc. That
-                                    information can be seen at the other pages of my website. Hover over an
-                                    item to see how many years of experience I have with the item you selected.
-                                </p>
-                            </div>
-                            <div className="w-full grid grid-rows-3 gap-4">
-                                <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
-                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Overall</h2>
-                                    <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
-                                        {overallList.map(item => (
-                                            <div>
-                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
-                                                    {item.name}
-                                                    <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
-                                                </p>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-                                <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
-                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Programming languages</h2>
-                                    <div className="grid grid-cols-2 auto-cols-max gap-1 mt-3">
-                                        {planguagesList.map(item => (
-                                            <div>
-                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
-                                                    {item.name}
-                                                    <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
-                                                </p>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-                                <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
-                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Technologies</h2>
-                                    <div className="grid grid-flow-col auto-cols-max gap-1 mt-3">
-                                        {technologiesList.map(item => (
-                                            <div>
-                                                <p className={"lname relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
-                                                    {item.name}
-                                                    <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
-                                                </p>
-                                            </div>
-                                        ))}
-                                    </div>
+                        <div className="mb-4">
+                            <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
+                            <p className="font-semibold text-first-600 text-justify dark:text-first-300">
+                                Below you can see my experience using different technologies. The "Overall"
+                                section wraps wide topics. The "Programming languages" section wraps both
+                                programming and markup languages. Finally, the "Technologies" section wraps
+                                some technologies I use. There's some information I don't include in here,
+                                such as my spoken languages, libraries/packages I work with, etc. That
+                                information can be seen at the other pages of my website. Hover over an
+                                item to see how many years of experience I have with the item you selected.
+                            </p>
+                        </div>
+                        <div className="w-full grid grid-flow-row gap-4">
+                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
+                                <h2 className="text-first-800 font-semibold dark:text-first-100">Overall</h2>
+                                <div className="flex flex-wrap mt-3 p-0.5">
+                                    {overallList.map(item => (
+                                        <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
+                                            {item.name}
+                                            <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                        </p>
+                                    ))}
                                 </div>
                             </div>
+                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
+                                <h2 className="text-first-800 font-semibold dark:text-first-100">Programming languages</h2>
+                                <div className="flex flex-wrap mt-3 p-0.5">
+                                    {planguagesList.map(item => (
+                                        <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
+                                            {item.name}
+                                            <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                        </p>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-900">
+                                <h2 className="text-first-800 font-semibold dark:text-first-100">Technologies</h2>
+                                <div className="flex flex-wrap mt-3 p-0.5">
+                                    {technologiesList.map(item => (
+                                        <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
+                                            {item.name}
+                                            <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                        </p>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 </main>
             </Layout>
