@@ -24,7 +24,7 @@ export const translationProjects = [
         source: 'https://github.com/ForceTower/Melon',
         translation: 'https://github.com/ForceTower/Melon/pull/79/files',
         pr: 'https://github.com/ForceTower/Melon/pull/79',
-        tags: ['strings', 'application', 'Android']
+        tags: ['strings', 'application']
     },
     {
         name: 'awesome-translations',
