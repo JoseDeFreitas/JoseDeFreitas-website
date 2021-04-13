@@ -29,7 +29,7 @@ export default function Programming({ projectsList }) {
                             project (if available).<br/><br/>
                             Programming gives you a lot of possibilities to do whatever you want. You
                             can find many types of projects in here, but most of them are websites
-                            (frontend and backed), desktop applications, packages/libraries and general
+                            (frontend and backend), desktop applications, packages/libraries and general
                             scripts.<br/><br/>
                             My main programming languages are Python, C# and JavaScript, though I
                             sometimes use other ones.<br/><br/>
