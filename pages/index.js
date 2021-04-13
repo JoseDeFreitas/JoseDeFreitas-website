@@ -49,19 +49,19 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         visibility: visible;
                     }
                 `}</style>
-                <main className="pt-16 grid grid-flow-row">
-                    <section className="relative p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-700 dark:border-first-900">
-                        <div className="grid grid-flow-col mb-6 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-900">
+                <main className="pt-16 grid grid-flow-row md:h-screen md:grid-cols-2 xl:pl-48 xl:pt-0">
+                    <section className="relative p-8 bg-first-50 border-b-2 border-first-300 dark:bg-first-700 dark:border-first-900 md:border-b-0 md:border-r-2 md:p-10">
+                        <div className="grid grid-flow-col mb-6 bg-first-200 rounded border-2 border-first-400 p-5 dark:bg-first-800 dark:border-first-900 xl:auto-cols-max xl:mb-10">
                             <div className="col-start-1 col-end-2 self-center">
-                                <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-36 rounded-full"/>
+                                <img src="https://avatars.githubusercontent.com/u/37962411?v=4" className="w-36 rounded-full xl:w-28 2xl:w-44"/>
                             </div>
-                            <div className="col-start-2 col-end-3 self-center ml-4">
-                                <h1 className="text-first-800 font-bold text-3xl dark:text-first-100">José De Freitas</h1>
-                                <p className="text-first-800 font-semibold text-lg dark:text-first-100">Software Engineer and Translator</p>
+                            <div className="col-start-2 col-end-3 self-center ml-4 2xl:ml-6">
+                                <h1 className="text-first-800 font-bold text-3xl dark:text-first-100 xl:text-4xl 2xl:text-5xl">José De Freitas</h1>
+                                <p className="text-first-800 font-semibold text-lg dark:text-first-100 xl:text-xl 2xl:text-2xl">Software Engineer and Translator</p>
                             </div>
                         </div>
                         <div className="mb-10">
-                            <p className="text-first-600 font-semibold text-lg text-justify dark:text-first-300">
+                            <p className="text-first-600 font-semibold text-lg text-justify dark:text-first-300 xl:text-xl">
                                 I'm a Software Engineer who loves to create new projects, especially open-source.
                                 I also love to contribute to other projects in any way in order to make the
                                 project even better.<br/><br/>
