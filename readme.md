@@ -1,1 +1,1 @@
-Website from me ([José De Freitas](https://github.com/JoseDeFreitas)).
+My ([José De Freitas](https://github.com/JoseDeFreitas)) website, using Next.js and Tailwindcss.
