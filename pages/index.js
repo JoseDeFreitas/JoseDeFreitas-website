@@ -75,10 +75,10 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         </div>
                         <div className="absolute bg-first-200 bottom-0 left-0 w-full p-4 border-t-2 border-first-300 dark:bg-first-800 dark:border-first-700">
                             <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-gray-300 dark:text-first-100 dark:border-first-600 dark:hover:bg-gray-700" target="_blank">GitHub</a>
-                                <a href="https://www.linkedin.com/in/jose-de-freitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-blue-200 dark:text-first-100 dark:border-first-600 dark:hover:bg-blue-700" target="_blank">LinkedIn</a>
-                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-green-200 dark:text-first-100 dark:border-first-600 dark:hover:bg-green-700" target="_blank">Crowdin</a>
-                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-blue-200 dark:text-first-100 dark:border-first-600 dark:hover:bg-blue-700" target="_blank">Twitter</a>
+                                <a href="https://github.com/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-gray-400 dark:text-first-100 dark:border-first-600 dark:hover:bg-gray-700" target="_blank">GitHub</a>
+                                <a href="https://www.linkedin.com/in/jose-de-freitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-blue-400 dark:text-first-100 dark:border-first-600 dark:hover:bg-blue-700" target="_blank">LinkedIn</a>
+                                <a href="https://crowdin.com/profile/JoseDeFreitas" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-green-400 dark:text-first-100 dark:border-first-600 dark:hover:bg-green-700" target="_blank">Crowdin</a>
+                                <a href="https://twitter.com/JoseDeF32503298" className="p-2 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-blue-400 dark:text-first-100 dark:border-first-600 dark:hover:bg-blue-700" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </section>

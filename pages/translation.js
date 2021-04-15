@@ -53,9 +53,9 @@ export default function Translation({ projectsList }) {
                                     </div>
                                     <div className="absolute bottom-0 left-0 w-full p-2">
                                         <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                            <a href={project.source} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Source</a>
-                                            <a href={project.translation} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Translation</a>
-                                            {project.pr ? <a href={project.pr} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Context</a> : null}
+                                            <a href={project.source} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-400 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Source</a>
+                                            <a href={project.translation} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-400 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Translation</a>
+                                            {project.pr ? <a href={project.pr} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-400 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Context</a> : null}
                                         </div>
                                     </div>
                                 </div>

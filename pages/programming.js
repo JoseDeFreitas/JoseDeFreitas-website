@@ -55,7 +55,7 @@ export default function Programming({ projectsList }) {
                                     </div>
                                     <div className="absolute bottom-0 left-0 w-full p-2">
                                         <div className="grid grid-flow-col gap-4 justify-items-stretch">
-                                            <a href={project.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-300 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Project</a>
+                                            <a href={project.link} className="p-1 rounded text-first-800 text-base text-center font-semibold border-2 border-first-400 hover:bg-first-400 dark:text-first-50 dark:border-first-600 dark:hover:bg-first-900" target="_blank">Project</a>
                                         </div>
                                     </div>
                                 </div>
