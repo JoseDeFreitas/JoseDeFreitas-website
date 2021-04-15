@@ -19,7 +19,7 @@ export const statsPLanguages = [
     },
     {
         name: 'C#',
-        date: [2021, 1],
+        date: [2021, 0],
         color: 'green'
     },
     {
