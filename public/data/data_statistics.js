@@ -15,7 +15,7 @@ export const statsPLanguages = [
     {
         name: 'Python',
         date: [2020, 0],
-        color: 'blue'
+        color: 'cyan'
     },
     {
         name: 'C#',
@@ -68,7 +68,7 @@ export const statsTechnologies = [
     {
         name: 'Visual Studio Code',
         date: [2019, 2],
-        color: 'gray'
+        color: 'lightBlue'
     },
     {
         name: 'GitHub',
@@ -78,7 +78,7 @@ export const statsTechnologies = [
     {
         name: 'React.js',
         date: [2020, 0],
-        color: 'gray'
+        color: 'lightBlue'
     },
     {
         name: 'Next.js',
@@ -88,6 +88,6 @@ export const statsTechnologies = [
     {
         name: 'TailwindCSS',
         date: [2021, 1],
-        color: 'gray'
+        color: 'teal'
     }
 ]
