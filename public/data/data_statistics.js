@@ -74,5 +74,20 @@ export const statsTechnologies = [
         name: 'GitHub',
         date: [2020, 3],
         color: 'gray'
+    },
+    {
+        name: 'React.js',
+        date: [2020, 0],
+        color: 'gray'
+    },
+    {
+        name: 'Next.js',
+        date: [2020, 9],
+        color: 'gray'
+    },
+    {
+        name: 'TailwindCSS',
+        date: [2021, 1],
+        color: 'gray'
     }
 ]
