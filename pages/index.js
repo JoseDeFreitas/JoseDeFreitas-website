@@ -86,13 +86,10 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         <div className="mb-4">
                             <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
                             <p className="font-semibold text-first-600 text-justify dark:text-first-300">
-                                Below you can see my experience using different technologies. The "Overall"
-                                section wraps wide topics. The "Programming languages" section wraps both
-                                programming and markup languages. Finally, the "Technologies" section wraps
-                                some technologies I use. There's some information I don't include in here,
-                                such as my spoken languages, libraries/packages I work with, etc. That
-                                information can be seen at the other pages of my website. Hover over an
-                                item to see how many years of experience I have with the item you selected.
+                                The "Overall" section wraps general topics. The "Programming languages" section
+                                wraps both programming and markup languages. Finally, the "Technologies" section
+                                wraps some technologies I use. Hover over an item to see how many years of
+                                experience I have with the item you selected.
                             </p>
                         </div>
                         <div className="w-full grid grid-flow-row gap-4">
