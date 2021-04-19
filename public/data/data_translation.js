@@ -71,4 +71,13 @@ export const translationProjects = [
         pr: null,
         tags: ['C++', 'guide']
     },
+    {
+        name: 'git-tips',
+        description: 'Los comandos, trucos y consejos de Git más usados.',
+        creation: '19/04/2021',
+        source: 'https://github.com/git-tips/tips#readme',
+        translation: 'https://github.com/JoseDeFreitas/git-tips#readme',
+        pr: 'https://github.com/git-tips/tips/pull/195',
+        tags: ['Git', 'guide']
+    },
 ]
