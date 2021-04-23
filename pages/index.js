@@ -19,7 +19,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
             <Head>
                 <title>Home - José De Freitas</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                <meta name="description" content="Portfolio of José De Freitas"/>
+                <meta name="description" content="Portfolio website of José De Freitas"/>
                 <meta name="keywords" content="Portfolio, Programming, Translation"/>
                 <meta name="author" content="José De Freitas"/>
                 <link rel="icon" href="https://avatars.githubusercontent.com/u/37962411?v=4"/>
@@ -57,7 +57,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                             <div className="col-start-2 col-end-3 self-center ml-4 2xl:ml-6">
                                 <h1 className="text-first-800 font-bold text-3xl dark:text-first-100 xl:text-4xl 2xl:text-5xl">José De Freitas</h1>
-                                <p className="text-first-800 font-semibold text-lg dark:text-first-100 xl:text-xl 2xl:text-2xl">Software Engineer and Translator</p>
+                                <p className="text-first-800 font-semibold text-lg dark:text-first-100 xl:text-xl 2xl:text-2xl">Programmer and Translator</p>
                             </div>
                         </div>
                         <div className="mb-10">
