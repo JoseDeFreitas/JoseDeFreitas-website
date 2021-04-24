@@ -28,6 +28,11 @@ export const statsPLanguages = [
         color: 'yellow'
     },
     {
+        name: 'C',
+        date: [2021, 3],
+        color: 'warmGray'
+    },
+    {
         name: 'HTML',
         date: [2018, 0],
         color: 'orange'
