@@ -83,47 +83,43 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         </div>
                     </section>
                     <section className="p-6 bg-first-50 dark:bg-first-900">
-                        <div className="mb-4">
-                            <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Experience</h2>
-                            <p className="font-semibold text-first-600 text-justify dark:text-first-300">
-                                The "Overall" section wraps general topics. The "Programming languages" section
-                                wraps both programming and markup languages. Finally, the "Technologies" section
-                                wraps some technologies I use. Hover over an item to see how many years of
-                                experience I have with the item you selected.
-                            </p>
-                        </div>
-                        <div className="w-full grid grid-flow-row gap-4">
-                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
-                                <h2 className="text-first-800 font-semibold dark:text-first-100">Overall</h2>
-                                <div className="flex flex-wrap mt-3 p-0.5">
-                                    {overallList.map(item => (
-                                        <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
-                                            {item.name}
-                                            <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
-                                        </p>
-                                    ))}
-                                </div>
+                        <div>
+                            <div className="mb-4">
+                                <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Skills</h2>
                             </div>
-                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
-                                <h2 className="text-first-800 font-semibold dark:text-first-100">Programming languages</h2>
-                                <div className="flex flex-wrap mt-3 p-0.5">
-                                    {planguagesList.map(item => (
-                                        <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
-                                            {item.name}
-                                            <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
-                                        </p>
-                                    ))}
+                            <div className="w-full grid grid-flow-row gap-4">
+                                <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Overall</h2>
+                                    <div className="flex flex-wrap mt-3 p-0.5">
+                                        {overallList.map(item => (
+                                            <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
+                                                {item.name}
+                                                <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                            </p>
+                                        ))}
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
-                                <h2 className="text-first-800 font-semibold dark:text-first-100">Technologies</h2>
-                                <div className="flex flex-wrap mt-3 p-0.5">
-                                    {technologiesList.map(item => (
-                                        <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
-                                            {item.name}
-                                            <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
-                                        </p>
-                                    ))}
+                                <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Programming languages</h2>
+                                    <div className="flex flex-wrap mt-3 p-0.5">
+                                        {planguagesList.map(item => (
+                                            <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
+                                                {item.name}
+                                                <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                            </p>
+                                        ))}
+                                    </div>
+                                </div>
+                                <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100">Technologies</h2>
+                                    <div className="flex flex-wrap mt-3 p-0.5">
+                                        {technologiesList.map(item => (
+                                            <p className={"lname m-0.5 relative cursor-default py-1 px-2 rounded text-sm bg-" + item.color + "-300 text-" + item.color + "-800 dark:bg-" + item.color + "-700 dark:text-" + item.color + "-200"}>
+                                                {item.name}
+                                                <span className="yname absolute z-10 invisible text-white text-xs text-center bg-first-500 px-2 py-1 rounded">{moment([moment().year(), moment().month()]).diff(item.date, 'years')}y</span>
+                                            </p>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>
