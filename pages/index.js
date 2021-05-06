@@ -83,6 +83,18 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                         </div>
                     </section>
                     <section className="p-6 bg-first-50 dark:bg-first-900">
+                        <div className="mb-3">
+                            <div className="mb-4">
+                                <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Education</h2>
+                            </div>
+                            <div className="w-full grid grid-flow-row gap-4">
+                                <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100 mb-1">Open Source Society University (<a href="https://github.com/ossu">OSSU</a>) (self-taught)</h2>
+                                    <p className="p-0.5 text-first-600 dark:text-first-300">Software Engineer</p>
+                                    <p className="p-0.5 text-first-600 dark:text-first-300">May 2021 - Present</p>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <div className="mb-4">
                                 <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Skills</h2>
