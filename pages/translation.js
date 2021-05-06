@@ -27,7 +27,7 @@ export default function Translation({ projectsList }) {
                             The "Source" button links to the original document from the language I
                             translated it. The "Translation" button links to the translation I made.
                             The "Context" button links to the conversation or thread created regarding
-                            the translation (if available). Note that many buttons links to GitHub
+                            the translation (if available). Note that many buttons link to GitHub
                             (because I've also contributed to open-source projects).<br/><br/>
                             As a software engineer I have a very good knowledge of IT concepts and the
                             like. Most of the documents I've translated are about some technology or

@@ -22,8 +22,8 @@ export default function Programming({ projectsList }) {
                     <section className="p-6 bg-first-50 border-b-2 border-first-300 dark:bg-first-900 dark:border-first-700 xl:border-b-0 xl:border-r-2 xl:col-start-1 xl:col-end-2">
                         <h1 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Programming</h1>
                         <p className="font-semibold text-justify text-first-600 dark:text-first-300">
-                            At the left you can see all my programming projects. All of them are open
-                            source!<br/><br/>
+                            At the right section you can see all my programming projects. All of them are
+                            open source!<br/><br/>
                             The "Project" button links to the GitHub repository where you can see the
                             code behind the project. The "Website" button links to the website of the
                             project (if available).<br/><br/>
