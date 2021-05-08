@@ -39,7 +39,7 @@ export default function Programming({ projectsList }) {
                         </p>
                     </section>
                     <section className="p-6 bg-first-50 dark:bg-first-900 xl:col-start-2 xl:col-end-5">
-                        <p className="font-bold text-first-600 dark:text-first-300 mb-4">{projectsList.length} projects</p>
+                        <p className="font-bold text-first-800 dark:text-first-100 mb-4">{projectsList.length} projects</p>
                         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 2xl:grid-cols-3">
                             {projectsList.map(project => (
                                 <div className="relative bg-first-200 border-2 border-first-400 p-3 rounded divide-y-2 divide-first-400 dark:bg-first-800 dark:border-first-600 dark:divide-first-600">

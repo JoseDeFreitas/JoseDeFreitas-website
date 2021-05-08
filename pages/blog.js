@@ -22,7 +22,7 @@ export default function Blog({ newPosts, archivePosts }) {
                 <main className="pt-16 h-screen grid grid-cols-1 xl:pl-48 xl:pt-0">
                     <section className="p-8 bg-first-50 overflow-y-auto dark:bg-first-900">
                         <div className="mb-6">
-                            <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">New</h2>
+                            <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">New — <span className="text-base">{newPosts.length} posts</span></h2>
                             <p className="text-lg font-semibold text-first-600 dark:text-first-300">No posts available.</p>
                             <div className="grid grid-cols-5 gap-4">
                                 {newPosts.map(post => (
@@ -52,7 +52,7 @@ export default function Blog({ newPosts, archivePosts }) {
                             </div>
                         </div>
                         <div>
-                            <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Archive</h2>
+                            <h2 className="font-bold text-first-800 text-2xl mb-2 dark:text-first-100">Archive — <span className="text-base">{archivePosts.length} posts</span></h2>
                             <p className="text-lg font-semibold text-first-600 dark:text-first-300">No posts available.</p>
                             <div className="grid grid-cols-5 gap-4">
                                 {archivePosts.map(post => (
