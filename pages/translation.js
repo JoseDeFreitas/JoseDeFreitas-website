@@ -29,6 +29,9 @@ export default function Translation({ projectsList }) {
                             The "Context" button links to the conversation or thread created regarding
                             the translation (if available). Note that many buttons link to GitHub
                             (because I've also contributed to open-source projects).<br/><br/>
+                            I have a Crowdin account (website for translation/internationalization)
+                            where I translate the content of some projects. You can find the link on the Home
+                            tab on this website or you can go directly to <a href="https://crowdin.com/profile/josedefreitas/activity" className="text-lightBlue-500">my Crowdin account's activity tab</a>.<br/><br/>
                             As a software engineer I have a very good knowledge of IT concepts and the
                             like. Most of the documents I've translated are about some technology or
                             service related. However, I also like to translate other kinds of documents.<br/><br/>
