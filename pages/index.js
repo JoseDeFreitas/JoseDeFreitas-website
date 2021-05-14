@@ -89,7 +89,7 @@ export default function Home({ overallList, planguagesList, technologiesList }) 
                             </div>
                             <div className="w-full grid grid-flow-row gap-4">
                                 <div className="w-full bg-first-200 border-2 border-first-400 p-3 rounded dark:bg-first-800 dark:border-first-600">
-                                    <h2 className="text-first-800 font-semibold dark:text-first-100 mb-1">Open Source Society University (<a href="https://github.com/ossu">OSSU</a>) (self-taught)</h2>
+                                    <h2 className="text-first-800 font-semibold dark:text-first-100 mb-1">Open Source Society University (<a href="https://github.com/ossu" className="text-lightBlue-500">OSSU</a>) (self-taught)</h2>
                                     <p className="p-0.5 text-first-600 dark:text-first-300">Software Engineer</p>
                                     <p className="p-0.5 text-first-600 dark:text-first-300">May 2021 - Present</p>
                                 </div>
