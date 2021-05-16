@@ -89,4 +89,13 @@ export const translationProjects = [
         pr: 'https://github.com/LSPosed/LSPosed/pull/599',
         tags: ['strings', 'XML']
     },
+    {
+        name: 'Configured',
+        description: 'The easiest way to change the configuration of mods!',
+        creation: '16/05/2021',
+        source: 'https://github.com/MrCrayfish/Configured/blob/main/src/main/resources/assets/configured/lang/en_us.json',
+        translation: 'https://github.com/MrCrayfish/Configured/blob/main/src/main/resources/assets/configured/lang/es_es.json',
+        pr: 'https://github.com/MrCrayfish/Configured/pull/10',
+        tags: ['JSON', 'Minecraft']
+    },
 ]
