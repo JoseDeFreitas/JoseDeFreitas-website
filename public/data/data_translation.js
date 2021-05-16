@@ -80,4 +80,13 @@ export const translationProjects = [
         pr: 'https://github.com/git-tips/tips/pull/195',
         tags: ['Git', 'guide']
     },
+    {
+        name: 'LSPosed',
+        description: 'LSPosed Xposed Framework.',
+        creation: '16/05/2021',
+        source: 'https://github.com/LSPosed/LSPosed/blob/master/app/src/main/res/values/strings.xml',
+        translation: 'https://github.com/LSPosed/LSPosed/blob/master/app/src/main/res/values-es/strings.xml',
+        pr: 'https://github.com/LSPosed/LSPosed/pull/599',
+        tags: ['strings', 'XML']
+    },
 ]
