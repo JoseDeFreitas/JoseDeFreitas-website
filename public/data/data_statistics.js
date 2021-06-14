@@ -71,13 +71,13 @@ export const statsTechnologies = [
         color: 'gray'
     },
     {
-        name: 'Visual Studio Code',
-        date: [2019, 2],
-        color: 'lightBlue'
+        name: 'Qt',
+        date: [2020, 9],
+        color: 'green'
     },
     {
-        name: 'GitHub',
-        date: [2020, 3],
+        name: 'Next.js',
+        date: [2020, 9],
         color: 'gray'
     },
     {
@@ -86,13 +86,18 @@ export const statsTechnologies = [
         color: 'lightBlue'
     },
     {
-        name: 'Next.js',
-        date: [2020, 9],
-        color: 'gray'
-    },
-    {
         name: 'TailwindCSS',
         date: [2021, 1],
         color: 'teal'
+    },
+    {
+        name: 'GitHub',
+        date: [2020, 3],
+        color: 'gray'
+    },
+    {
+        name: 'Visual Studio Code',
+        date: [2019, 2],
+        color: 'lightBlue'
     }
 ]
