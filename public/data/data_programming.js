@@ -13,4 +13,11 @@ export const programmingProjects = [
         link: 'https://github.com/JoseDeFreitas/JoseDeFreitas-website',
         tags: ['Next.js', 'Tailwind', 'frontend']
     },
+    {
+        name: 'FCC Scientific Computing with Python',
+        description: 'Repository containing all the 5 projects I made for the freeCodeCamp Scientific Computing with Python certification.',
+        creation: '08/06/2021',
+        link: 'https://github.com/JoseDeFreitas/fcc-scientific-computing-with-python',
+        tags: ['Python']
+    },
 ]
