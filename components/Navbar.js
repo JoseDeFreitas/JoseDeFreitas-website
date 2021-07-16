@@ -22,7 +22,9 @@ export default function Navbar() {
                     <a className="p-2 rounded text-base font-semibold text-first-800 hover:bg-first-400 dark:text-first-100 dark:hover:bg-first-900">Blog</a>
                 </Link>
             </div>
-            <a href='https://ko-fi.com/D1D62AAG8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>
+            <a className="absolute w-auto pt-1 pr-5 right-0 bottom-0" href='https://ko-fi.com/D1D62AAG8' target='_blank'>
+                <img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+            </a>
         </nav>
     )
 }
