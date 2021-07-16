@@ -22,7 +22,7 @@ export default function Navbar() {
                     <a className="p-2 rounded text-base font-semibold text-first-800 hover:bg-first-400 dark:text-first-100 dark:hover:bg-first-900">Blog</a>
                 </Link>
             </div>
-            <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="josedefreitas" data-description="Support me on Buy me a coffee!" data-message="" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+            <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'D1D62AAG8');kofiwidget2.draw();</script> 
         </nav>
     )
 }
