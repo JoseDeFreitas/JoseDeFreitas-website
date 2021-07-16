@@ -22,7 +22,7 @@ export default function Navbar() {
                     <a className="p-2 rounded text-base font-semibold text-first-800 hover:bg-first-400 dark:text-first-100 dark:hover:bg-first-900">Blog</a>
                 </Link>
             </div>
-            <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'D1D62AAG8');kofiwidget2.draw();</script> 
+            <a href='https://ko-fi.com/D1D62AAG8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>
         </nav>
     )
 }
